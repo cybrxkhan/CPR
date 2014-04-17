@@ -1,0 +1,46 @@
+==========================
+COMPATCH INFORMATION
+==========================
+
+These compatches are for players who want to use CPR with other mods. Please note if you are using the Immersion module of VIET that CPR is already integrated into it.
+
+Currently, there are compatches for the following mods:
+
+- PB (Project Balance)
+- PB+SWMH and SWMH (will work for both)
+
+Feel free to request compatches for other mods in the CPR thread.
+
+
+==========================
+INSTALLATION INSTRUCTIONS
+==========================
+
+First, make sure you know what compatch you're using - the PB compatch will obviously not work with CKII+!
+
+If you have ALL Portrait DLCs, follow the instructions below. If not, follow the instructions on the bottom instead.
+
+1. Go to "mod/Cultures and Portraits Revamp/common." There, you'll find a folder called "cultures." Delete that.
+2. Copy and paste the "cultures" file from the compatch folder to the one in the main mod.
+3. You should be good to go!
+
+
+
+If you do NOT have ALL the Portrait DLCs, follow these instructions instead. (They are also in the main readme, but are reproduced here for your convenience.)
+
+1. Go to "Cultures and Portraits Revamp/common/cultures" and delete "00_cultures.txt".
+2. Go to "Cultures and Portraits Revamp/Interface" and delete the following files:
+
+portrait_sprites_DLC.gfx
+portraits_mediterranean.gfx
+portraits_norse.gfx
+portraits_persian.gfx
+portraits_saxon.gfx
+portraits_turkish.gfx
+portraits_ugric.gfx
+portraits_westernslavic.gfx
+province_new.gfx
+
+3. Go to "Cultures and Portraits Revamp/common/graphicalculturetypes" and delete "00_graphicalculturetype.txt"
+
+4. That should be it.
