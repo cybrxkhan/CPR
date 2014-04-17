@@ -6,7 +6,7 @@ These compatches are for players who want to use CPR with other mods. Please not
 
 Currently, there are compatches for the following mods:
 
-- PB (Project Balance)
+- PB (Project Balance WITHOUT SWMH)
 - PB+SWMH and SWMH (will work for both)
 
 Feel free to request compatches for other mods in the CPR thread.
@@ -20,8 +20,8 @@ First, make sure you know what compatch you're using - the PB compatch will obvi
 
 If you have ALL Portrait DLCs, follow the instructions below. If not, follow the instructions on the bottom instead.
 
-1. Go to "mod/Cultures and Portraits Revamp/common." There, you'll find a folder called "cultures." Delete that.
-2. Copy and paste the "cultures" file from the compatch folder to the one in the main mod.
+1. Go to "mod/Cultures and Portraits Revamp/common/cultures."
+2. Copy and paste the file from the compatch folder into this "cultures" folder you just opened up. Replace if necessary.
 3. You should be good to go!
 
 
