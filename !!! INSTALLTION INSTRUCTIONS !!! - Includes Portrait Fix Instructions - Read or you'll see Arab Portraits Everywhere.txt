@@ -1,0 +1,34 @@
+==========================
+INSTALLATION INSTRUCTIONS
+==========================
+
+Thanks for downloading CPR. The current version of CPR is 2.0.2.
+
+CPR is a portrait mod that tries to enhance portraits (obviously) by re-using and re-mixing vanilla and DLC portrait material. As such, it fills in the gap between smaller portrait mods such as the Portrait Realignment Pack that fix things but don't add a lot of new portraits, and big portrait mods such as Crakd's stuff and BLC that has entirely new art assets to create new portrait styles.
+
+To install, simply unzip the mod into your mod folder. Further instructions on compatching and customization options are included in their respective folders.
+
+If you DO NOT have ALL portrait DLCs, please follow the instructions below, or else you might see black or empty portraits all over the place.
+
+====================================================
+PORTRAIT FIX INSTRUCTIONS
+====================================================
+
+The instructions apply regardless of whether you're using the compatches or not.
+
+1. Go to "Cultures and Portraits Revamp/common" and delete the "cultures" folder.
+2. Go to "Cultures and Portraits Revamp/Interface" and delete the following files:
+
+portrait_sprites_DLC.gfx
+portraits_mediterranean.gfx
+portraits_norse.gfx
+portraits_persian.gfx
+portraits_saxon.gfx
+portraits_turkish.gfx
+portraits_ugric.gfx
+portraits_westernslavic.gfx
+province_new.gfx
+
+3. Go to "Cultures and Portraits Revamp/common/graphicalculturetypes" and delete "00_graphicalculturetype.txt"
+
+4. That should be it.
