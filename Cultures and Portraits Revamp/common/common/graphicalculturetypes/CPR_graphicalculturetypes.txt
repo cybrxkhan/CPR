@@ -41,7 +41,8 @@ norsegaelgfx = {
 	skin_tone = 0
 }
 hungariangfx = {
-	skin_tone = 1
+	skin_tone = 0
+	christian_portraits = yes
 }
 crimeangothicgfx = {
 	skin_tone = 0
