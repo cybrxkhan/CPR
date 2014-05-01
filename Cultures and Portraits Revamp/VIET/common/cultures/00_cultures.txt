@@ -5480,7 +5480,7 @@ serindian = {
 	graphical_culture = muslimgfx
 
     khotanese = {
-        graphical_culture = khotanesegfx
+        graphical_culture = turkishgfx
 		second_graphical_culture = muslimgfx
         color = { 0.4 0.2 0.75  }
         
@@ -5504,7 +5504,7 @@ serindian = {
     }
 
     tocharian = {
-        graphical_culture = khotanesegfx
+        graphical_culture = turkishgfx
 		second_graphical_culture = muslimgfx
         color = { 0.75 0.45 0.95  }
         
@@ -5571,7 +5571,7 @@ serindian = {
 
     uighur = {
 
-       graphical_culture = khotanesegfx
+       graphical_culture = turkishgfx
 	   second_graphical_culture = muslimgfx
 
        color = { 0.45 0.05 0.80 }
