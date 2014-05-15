@@ -47,9 +47,6 @@ hungariangfx = {
 crimeangothicgfx = {
 	skin_tone = 0
 }
-afghangfx = {
-	skin_tone = 1
-}
 sogdiangfx = {
 	skin_tone = 1
 }

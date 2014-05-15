@@ -2554,7 +2554,7 @@ iranian = {
 		modifier = kurdish_culture_modifier
 	}
 	afghan = { # a.k.a. Pashtun
-		graphical_culture = afghangfx #arabicgfx
+		graphical_culture = persiangfx #arabicgfx
 		secondary_event_pictures = bedouin_arabic
 
 		color = { 0.6 0.6 0.1 }
@@ -2597,7 +2597,7 @@ iranian = {
 	}
 	
 	baloch = {
-		graphical_culture = afghangfx #arabicgfx
+		graphical_culture = persiangfx #arabicgfx
 		secondary_event_pictures = bedouin_arabic
 
 		color = { 0.4 0.4 0.05 }
@@ -4119,7 +4119,7 @@ indo_aryan_group = {
 	}
 	
 	panjabi = { # Indo-Aryan
-		graphical_culture = afghangfx
+		graphical_culture = indiangfx
 		second_graphical_culture = muslimgfx # Fallback type
 		secondary_event_pictures = bedouin_arabic
 		
@@ -4216,7 +4216,7 @@ indo_aryan_group = {
 	}
 
 	sindhi = { # Indo-Aryan
-		graphical_culture = afghangfx
+		graphical_culture = indiangfx
 		second_graphical_culture = muslimgfx # Fallback type
 		secondary_event_pictures = bedouin_arabic
 		
