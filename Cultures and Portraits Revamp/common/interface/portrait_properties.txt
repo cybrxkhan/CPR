@@ -473,27 +473,6 @@
 			NOT = { culture_group = east_african }
 		}
 	}
-	
-	27 = { # Finno-Ugric
-		factor = 0
-		modifier = {
-			factor = 0
-			NOT = { culture_group = finno_ugric }
-			NOT = { culture_group = east_slavic }
-			NOT = { culture_group = north_germanic }
-			NOT = { culture = bolghar }
-			NOT = { religion = finnish_pagan_reformed }
-			NOT = { religion = finnish_pagan }
-		}
-		modifier = {
-			factor = 10
-			OR = {
-				culture_group = finno_ugric
-				religion = finnish_pagan_reformed
-				religion = finnish_pagan
-			}
-		}
-	}
 }
 
 # p1 hair  --- WARNING! Property 1 MUST be Hair, otherwise the hair hiding helmets wont work ---
