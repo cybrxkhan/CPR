@@ -1487,7 +1487,7 @@ arabic = {
 		mother_name_chance = 30
 	}
 	levantine_arabic = {
-		graphical_culture = arabicgfx
+		graphical_culture = levantinegfx
 		second_graphical_culture = muslimgfx
 		
 		color = { 0.3 0.95 0.3 }

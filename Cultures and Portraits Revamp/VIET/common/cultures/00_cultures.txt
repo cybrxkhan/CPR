@@ -5314,7 +5314,7 @@ arabic = { #Renamed "Semitic"
 	}
 
 	levantine_arabic = {
-		graphical_culture = persiangfx
+		graphical_culture = levantinegfx
 		
 		color = { 0.3 0.95 0.3 }
 
