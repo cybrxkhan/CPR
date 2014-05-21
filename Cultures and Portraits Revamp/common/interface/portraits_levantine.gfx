@@ -1,19 +1,19 @@
 # hair, mouth, chin, nose, eyes, cheek, ear, neck
 spriteTypes = {
 	
-############## PERSIAN ##########################
+############## Levantine ##########################
 
 	spriteType = {
-		name = "PORTRAIT_persiangfx_child_male"
-		texturefile = "gfx\\characters\\default_son_muslim.tga"
+		name = "PORTRAIT_levantinegfx_child_male"
+		texturefile = "gfx\\characters\\default_son_persian.tga"
 		noOfFrames = 1
 		norefcount = yes
 		can_be_lowres = yes
 	}
 	
 	spriteType = {
-		name = "PORTRAIT_persiangfx_child_female"
-		texturefile = "gfx\\characters\\default_daughter_muslim.tga"
+		name = "PORTRAIT_levantinegfx_child_female"
+		texturefile = "gfx\\characters\\default_daughter_persian.tga"
 		noOfFrames = 1
 		norefcount = yes
 		can_be_lowres = yes
@@ -21,9 +21,9 @@ spriteTypes = {
 
 	# CULTURE_INDEX: 0 = clothes behind, 1 = headgear behind, 2 = clothes, 3 = headgear mid, 4 = clothes infront, 5 = headgear
 
-	# Persian Male
+	# Levantine Male
 	portraitType = {
-		name = "PORTRAIT_persiangfx_male"
+		name = "PORTRAIT_levantinegfx_male"
 		effectFile = "gfx/FX/portrait.lua"
 		layer = { # GFX_TYPE:[d|p]INDEX:COLOR_LINK
 			"GFX_character_background:p0"
@@ -76,7 +76,7 @@ spriteTypes = {
 	
 	# middle age
 	portraitType = {
-		name = "PORTRAIT_persiangfx_male1"
+		name = "PORTRAIT_levantinegfx_male1"
 		effectFile = "gfx/FX/portrait.lua"
 		layer = { # GFX_TYPE:[d|p]INDEX:COLOR_LINK
 			"GFX_character_background:p0"
@@ -128,7 +128,7 @@ spriteTypes = {
 	
 	# old age
 	portraitType = {
-		name = "PORTRAIT_persiangfx_male2"
+		name = "PORTRAIT_levantinegfx_male2"
 		effectFile = "gfx/FX/portrait.lua"
 		layer = { # GFX_TYPE:[d|p]INDEX:COLOR_LINK
 			"GFX_character_background:p0"
@@ -177,13 +177,13 @@ spriteTypes = {
 		headgear_that_hides_hair = { 10 }
 	}
 
-#### Persian FEMALE ####
+#### Levantine FEMALE ####
 	
 	# CULTURE_INDEX: 0 = clothes behind, 1 = headgear behind, 2 = clothes, 3 = headgear mid, 4 = clothes infront, 5 = headgear
 
-	# Persian female
+	# Levantine female
 	portraitType = {
-		name = "PORTRAIT_persiangfx_female"
+		name = "PORTRAIT_levantinegfx_female"
 		effectFile = "gfx/FX/portrait.lua"
 		layer = { # GFX_TYPE:[d|p]INDEX:COLOR_LINK
 			"GFX_character_background:p0"
@@ -229,9 +229,9 @@ spriteTypes = {
 		headgear_that_hides_hair = { }
 	}
 
-	# Persian female midage
+	# Levantine female midage
 	portraitType = {
-		name = "PORTRAIT_persiangfx_female1"
+		name = "PORTRAIT_levantinegfx_female1"
 		effectFile = "gfx/FX/portrait.lua"
 		layer = { # GFX_TYPE:[d|p]INDEX:COLOR_LINK
 			"GFX_character_background:p0"
@@ -277,9 +277,9 @@ spriteTypes = {
 		headgear_that_hides_hair = { }
 	}
 
-	# Persian female oldage
+	# Levantine female oldage
 	portraitType = {
-		name = "PORTRAIT_persiangfx_female2"
+		name = "PORTRAIT_levantinegfx_female2"
 		effectFile = "gfx/FX/portrait.lua"
 		layer = { # GFX_TYPE:[d|p]INDEX:COLOR_LINK
 			"GFX_character_background:p0"
