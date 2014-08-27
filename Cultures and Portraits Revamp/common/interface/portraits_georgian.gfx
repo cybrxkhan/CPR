@@ -45,8 +45,8 @@ spriteTypes = {
 			"GFX_character_background:p0"
 			"GFX_easternslavic_male_clothes_behind:p3:c0"
 			"GFX_georgian_male_headgear_behind:p5:c1"
-			"GFX_muslim_male_hair_behind:p1:y"
-			"GFX_easternslavic_male_beard_behind:p4:h:y"
+			"GFX_persian_male_hair_behind:p1:h:y"
+			"GFX_persian_male_beard_behind:p4:h:y"
 			"GFX_byzantine_male_base:p2"
 			"GFX_byzantine_male_neck:d0"
 			"GFX_byzantine_male_chin:d1"
@@ -62,8 +62,8 @@ spriteTypes = {
 			"GFX_easternslavic_male_clothes:p3:c2"
 			"GFX_georgian_male_headgear_mid:p5:c3"
 			"GFX_byzantine_male_ear:d7"			
-			"GFX_easternslavic_male_beard:p4:h:y"
-			"GFX_muslim_male_hair:p1:y"
+			"GFX_persian_male_beard:p4:h:y"
+		   	"GFX_persian_male_hair:p1:h:y"
 			"GFX_easternslavic_male_clothes_infront:p3:c4"
 			"GFX_georgian_male_headgear:p5:c5"
 			"GFX_character_imprisoned:p6"
@@ -71,23 +71,19 @@ spriteTypes = {
 
 		hair_color_index = 8
 		hair_color = { # dark, base, highlight
-			
-			{ 10 10 10 } {  50 50 50 } { 255 255 255 }
-			{ 10 10 10 } {  50 50 50 } { 255 255 255 }
-			{ 10 10 10 } {  50 50 50 } { 255 255 255 }
-			{ 10 10 10 } {  50 50 50 } { 255 255 255 }
-			{ 15 8 0 } { 176 155 108 } { 255 255 255 }
-			{ 10 10 10 } { 125 85 56 } { 255 255 255 }
-			{ 26 11 2 } { 95 49 22 } { 255 255 255 }
-			{ 20 12 8 } { 78 54 37 } { 255 255 255 }
-
+			{ 10 10 10 } {  50 50 50 } { 255 255 255 } #Black
+			{ 15 8 0 } { 80 47 22 } { 255 255 255 } #Medium Brown
+			{ 10 10 10 } { 27 25 23 } { 255 255 255 } #Second Black
+			{ 20 12 8 } { 78 54 37 } { 255 255 255 } #Second Brown
+			{ 10 10 10 } { 65 65 65 } { 255 255 255 } #Third Black
 		}
 
 		eye_color_index = 9
 		eye_color = {
-			{ 101 119 150}
-			{ 120 74 46 }
-			{ 56 80 57 }
+			{ 120 74 46 } #Brown
+			{ 34 103 36 } #Green
+			{ 86 74 46 } #Second Brown
+			{ 36 32 24 } #Dark Brown
 		}
 		
 		headgear_that_hides_hair = { 10 }
@@ -101,8 +97,8 @@ spriteTypes = {
 			"GFX_character_background:p0"
 			"GFX_easternslavic_male_clothes_behind:p3:c0"
 			"GFX_georgian_male_headgear_behind:p5:c1"
-			"GFX_muslim_male_hair_behind_midage:p1:y"
-			"GFX_easternslavic_male_beard_behind_midage:p4:h:y"
+			"GFX_persian_male_hair_behind_midage:p1:h:y"
+			"GFX_persian_male_beard_behind_midage:p4:h:y"
 			"GFX_byzantine_male_base_midage:p2"
 			"GFX_byzantine_male_neck_midage:d0"
 			"GFX_byzantine_male_chin_midage:d1"
@@ -118,8 +114,8 @@ spriteTypes = {
 			"GFX_easternslavic_male_clothes:p3:c2"
 			"GFX_georgian_male_headgear_mid:p5:c3"
 			"GFX_byzantine_male_ear_midage:d7"
-			"GFX_easternslavic_male_beard_midage:p4:h:y"
-			"GFX_muslim_male_hair_midage:p1:y"
+			"GFX_persian_male_beard_midage:p4:h:y"
+			"GFX_persian_male_hair_midage:p1:h:y"
 			"GFX_easternslavic_male_clothes_infront:p3:c4"
 			"GFX_georgian_male_headgear:p5:c5"
 			"GFX_character_imprisoned:p6"
@@ -127,22 +123,19 @@ spriteTypes = {
 
 		hair_color_index = 8
 		hair_color = { # dark, base, highlight
-			
-			{ 10 10 10 } {  50 50 50 } { 255 255 255 }
-			{ 10 10 10 } {  50 50 50 } { 255 255 255 }
-			{ 10 10 10 } {  50 50 50 } { 255 255 255 }
-			{ 10 10 10 } {  50 50 50 } { 255 255 255 }
-			{ 15 8 0 } { 176 155 108 } { 255 255 255 }
-			{ 10 10 10 } { 125 85 56 } { 255 255 255 }
-			{ 30 22 18 } { 150 90 55 } { 255 255 255 }
-			{ 20 12 8 } { 78 54 37 } { 255 255 255 }
+			{ 10 10 10 } {  50 50 50 } { 255 255 255 } #Black
+			{ 15 8 0 } { 80 47 22 } { 255 255 255 } #Medium Brown
+			{ 10 10 10 } { 27 25 23 } { 255 255 255 } #Second Black
+			{ 20 12 8 } { 78 54 37 } { 255 255 255 } #Second Brown
+			{ 10 10 10 } { 65 65 65 } { 255 255 255 } #Third Black
 		}
 
 		eye_color_index = 9
 		eye_color = {
-			{ 101 119 150}
-			{ 120 74 46 }
-			{ 56 80 57 }
+			{ 120 74 46 } #Brown
+			{ 34 103 36 } #Green
+			{ 86 74 46 } #Second Brown
+			{ 36 32 24 } #Dark Brown
 		}
 		
 		headgear_that_hides_hair = { 10 }
@@ -156,8 +149,8 @@ spriteTypes = {
 			"GFX_character_background:p0"
 			"GFX_easternslavic_male_clothes_behind:p3:c0"
 			"GFX_georgian_male_headgear_behind:p5:c1"
-			"GFX_muslim_male_hair_behind_oldage:p1:y"
-			"GFX_easternslavic_male_beard_behind_oldage:p4:h:y"
+			"GFX_persian_male_hair_behind_oldage:p1:h:y"
+			"GFX_persian_male_beard_behind_oldage:p4:h:y"
 			"GFX_byzantine_male_base_oldage:p2"
 			"GFX_byzantine_male_neck_oldage:d0"
 			"GFX_byzantine_male_chin_oldage:d1"
@@ -173,8 +166,8 @@ spriteTypes = {
 			"GFX_easternslavic_male_clothes:p3:c2"
 			"GFX_georgian_male_headgear_mid:p5:c3"
 			"GFX_byzantine_male_ear_oldage:d7"
-			"GFX_easternslavic_male_beard_oldage:p4:h:y"
-			"GFX_muslim_male_hair_oldage:p1:y"
+			"GFX_persian_male_beard_oldage:p4:h:y"
+			"GFX_persian_male_hair_oldage:p1:h:y"
 			"GFX_easternslavic_male_clothes_infront:p3:c4"
 			"GFX_georgian_male_headgear:p5:c5"
 			"GFX_character_imprisoned:p6"
@@ -182,21 +175,19 @@ spriteTypes = {
 
 		hair_color_index = 8
 		hair_color = { # dark, base, highlight
-			
-			{ 10 10 10 } {  125 125 125 } { 255 255 255 }
-			{ 10 10 10 } {  125 125 125 } { 255 255 255 }
-			{ 10 10 10 } {  125 125 125 } { 255 255 255 }
-			{ 10 10 10 } {  125 125 125 } { 255 255 255 }
-			{ 10 10 10 } {  125 125 125 } { 255 255 255 }
-			{ 10 10 10 } {  125 125 125 } { 255 255 255 }
-			{ 30 22 18 } { 180 170 151 } { 255 255 255 }
+			{ 10 10 10 } {  200 200 200 } { 255 255 255 } #Black
+			{ 15 8 0 } { 174 166 160 } { 255 255 255 } #Medium Brown
+			{ 10 10 10 } { 46 42 39 } { 255 255 255 } #Second Black
+			{ 20 12 8 } { 138 116 99 } { 255 255 255 } #Second Brown
+			{ 10 10 10 } { 185 185 185 } { 255 255 255 } #Third Black
 		}
 
 		eye_color_index = 9
 		eye_color = {
-			{ 101 119 150}
-			{ 120 74 46 }
-			{ 56 80 57 }
+			{ 120 74 46 } #Brown
+			{ 34 103 36 } #Green
+			{ 86 74 46 } #Second Brown
+			{ 36 32 24 } #Dark Brown
 		}
 		
 		headgear_that_hides_hair = { 10 }
@@ -213,8 +204,8 @@ spriteTypes = {
 		layer = { # GFX_TYPE:[d|p]INDEX:COLOR_LINK
 			"GFX_character_background:p0"
 			"GFX_easternslavic_female_clothes_behind:p3:c0"
-			"GFX_easternslavic_female_headgear_behind:p5:c1"
-			"GFX_norse_female_hair_behind_christian:p1:h:y"
+			"GFX_persian_female_headgear_behind:p5:c1"
+			"GFX_persian_female_hair_behind:p1:h:y"
 			"GFX_byzantine_female_base:p2"
 			"GFX_byzantine_female_neck:d0"
 			"GFX_byzantine_female_mouth:d2"
@@ -230,28 +221,27 @@ spriteTypes = {
 			"GFX_character_blinded_eyes:p10"
 			"GFX_easternslavic_female_clothes:p3:c2"
 			":p5:c3"
-			"GFX_norse_female_hair_christian:p1:h:y" 
+			"GFX_persian_female_hair:p1:h:y"
 			"GFX_empty:p3:c4"
-			"GFX_easternslavic_female_headgear:p5:c5"
+			"GFX_persian_female_headgear:p5:c5"
 			"GFX_character_imprisoned:p6"
 		}
 
 		hair_color_index = 8
 		hair_color = { # dark, base, highlight
-			{ 10 10 10 } {  50 50 50 } { 255 255 255 }
-			{ 10 10 10 } {  50 50 50 } { 255 255 255 }
-			{ 10 10 10 } {  50 50 50 } { 255 255 255 }
-			{ 10 10 10 } {  50 50 50 } { 255 255 255 }
-			{ 15 8 0 } { 176 155 108 } { 255 255 255 }
-			{ 10 10 10 } { 125 85 56 } { 255 255 255 }
-			{ 20 12 8 } { 78 54 37 } { 255 255 255 }
+			{ 10 10 10 } {  50 50 50 } { 255 255 255 } #Black
+			{ 15 8 0 } { 80 47 22 } { 255 255 255 } #Medium Brown
+			{ 10 10 10 } { 27 25 23 } { 255 255 255 } #Second Black
+			{ 20 12 8 } { 78 54 37 } { 255 255 255 } #Second Brown
+			{ 10 10 10 } { 65 65 65 } { 255 255 255 } #Third Black
 		}
 
 		eye_color_index = 9
 		eye_color = {
-			{ 101 119 150}
-			{ 120 74 46 }
-			{ 56 80 57 }
+			{ 120 74 46 } #Brown
+			{ 34 103 36 } #Green
+			{ 86 74 46 } #Second Brown
+			{ 36 32 24 } #Dark Brown
 		}
 		
 		headgear_that_hides_hair = { }
@@ -264,8 +254,8 @@ spriteTypes = {
 		layer = { # GFX_TYPE:[d|p]INDEX:COLOR_LINK
 			"GFX_character_background:p0"
 			"GFX_easternslavic_female_clothes_behind:p3:c0"
-			"GFX_easternslavic_female_headgear_behind:p5:c1"
-			"GFX_norse_female_hair_behind_midage_christian:p1:h:y"
+			"GFX_persian_female_headgear_behind:p5:c1"
+			"GFX_persian_female_hair_behind_midage:p1:h:y"
 			"GFX_byzantine_female_base_midage:p2"
 			"GFX_byzantine_female_neck_midage:d0"
 			"GFX_byzantine_female_mouth_midage:d2"
@@ -281,28 +271,27 @@ spriteTypes = {
 			"GFX_character_blinded_eyes:p10"
 			"GFX_easternslavic_female_clothes:p3:c2"
 			":p5:c3"
-			"GFX_norse_female_hair_midage_christian:p1:h:y"
+			"GFX_persian_female_hair_midage:p1:h:y"	
 			"GFX_empty:p3:c4"
-			"GFX_easternslavic_female_headgear:p5:c5"
+			"GFX_persian_female_headgear:p5:c5"
 			"GFX_character_imprisoned:p6"
 		}
 
 		hair_color_index = 8
 		hair_color = { # dark, base, highlight
-			{ 10 10 10 } {  50 50 50 } { 255 255 255 }
-			{ 10 10 10 } {  50 50 50 } { 255 255 255 }
-			{ 10 10 10 } {  50 50 50 } { 255 255 255 }
-			{ 10 10 10 } {  50 50 50 } { 255 255 255 }
-			{ 15 8 0 } { 176 155 108 } { 255 255 255 }
-			{ 10 10 10 } { 125 85 56 } { 255 255 255 }
-			{ 20 12 8 } { 78 54 37 } { 255 255 255 }
+			{ 10 10 10 } {  50 50 50 } { 255 255 255 } #Black
+			{ 15 8 0 } { 80 47 22 } { 255 255 255 } #Medium Brown
+			{ 10 10 10 } { 27 25 23 } { 255 255 255 } #Second Black
+			{ 20 12 8 } { 78 54 37 } { 255 255 255 } #Second Brown
+			{ 10 10 10 } { 65 65 65 } { 255 255 255 } #Third Black
 		}
 
 		eye_color_index = 9
 		eye_color = {
-			{ 101 119 150}
-			{ 120 74 46 }
-			{ 56 80 57 }
+			{ 120 74 46 } #Brown
+			{ 34 103 36 } #Green
+			{ 86 74 46 } #Second Brown
+			{ 36 32 24 } #Dark Brown
 		}
 		
 		headgear_that_hides_hair = { }
@@ -315,8 +304,8 @@ spriteTypes = {
 		layer = { # GFX_TYPE:[d|p]INDEX:COLOR_LINK
 			"GFX_character_background:p0"
 			"GFX_easternslavic_female_clothes_behind:p3:c0"
-			"GFX_easternslavic_female_headgear_behind:p5:c1"
-			"GFX_norse_female_hair_behind_oldage_christian:p1:y"
+			"GFX_persian_female_headgear_behind:p5:c1"
+			"GFX_persian_female_hair_behind_oldage:p1:h:y"
 			"GFX_byzantine_female_base_oldage:p2"
 			"GFX_byzantine_female_neck_oldage:d0"
 			"GFX_byzantine_female_mouth_oldage:d2"
@@ -332,29 +321,27 @@ spriteTypes = {
 			"GFX_character_blinded_eyes:p10"
 			"GFX_easternslavic_female_clothes:p3:c2"
 			":p5:c3"
-			"GFX_norse_female_hair_oldage_christian:p1:y"
+			"GFX_persian_female_hair_oldage:p1:h:y"
 			"GFX_empty:p3:c4"
-			"GFX_easternslavic_female_headgear:p5:c5"
+			"GFX_persian_female_headgear:p5:c5"
 			"GFX_character_imprisoned:p6"
 		}
 
 		hair_color_index = 8
 		hair_color = { # dark, base, highlight
-			{ 255 255 255 } { 125 125 125 } { 255 255 255 }
-			{ 255 255 255 } { 125 125 125 } { 255 255 255 }
-			{ 255 255 255 } { 125 125 125 } { 255 255 255 }
-			{ 255 255 255 } { 125 125 125 } { 255 255 255 }
-			{ 255 255 255 } { 125 125 125 } { 255 255 255 }
-			{ 255 255 255 } { 125 125 125 } { 255 255 255 }
-			{ 30 22 18 } { 180 170 151 } { 255 255 255 }
-		
+			{ 10 10 10 } {  200 200 200 } { 255 255 255 } #Black
+			{ 15 8 0 } { 174 166 160 } { 255 255 255 } #Medium Brown
+			{ 10 10 10 } { 46 42 39 } { 255 255 255 } #Second Black
+			{ 20 12 8 } { 138 116 99 } { 255 255 255 } #Second Brown
+			{ 10 10 10 } { 185 185 185 } { 255 255 255 } #Third Black
 		}
 
 		eye_color_index = 9
 		eye_color = {
-			{ 101 119 150}
-			{ 120 74 46 }
-			{ 56 80 57 }
+			{ 120 74 46 } #Brown
+			{ 34 103 36 } #Green
+			{ 86 74 46 } #Second Brown
+			{ 36 32 24 } #Dark Brown
 		}
 		
 		headgear_that_hides_hair = { }
