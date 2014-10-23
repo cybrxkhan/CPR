@@ -107,7 +107,7 @@ west_germanic = {
 	graphical_culture = westerngfx
 	
 	frisian = {
-		graphical_culture = saxongfx
+		graphical_culture = germangfx
 		
 		color = { 0.8 0.3 0.2 }
 		
