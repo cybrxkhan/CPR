@@ -297,7 +297,7 @@ central_germanic = {
 		modifier = default_culture_modifier
 	}
 	suebi = {
-		graphical_culture = germangfx
+		graphical_culture = southerngfx
 		
 		color = { 0.7 0.7 0.7 }
 

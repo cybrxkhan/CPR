@@ -730,7 +730,7 @@ byzantine = {
 		modifier = default_culture_modifier
 	}
 
-	griko = { #Sicilian Greek
+	sicilian_greek = { #Sicilian Greek
 		graphical_culture = byzantinegfx
 		
 		color = { 0.3 0.0 0.3 }
@@ -1093,7 +1093,7 @@ celtic = {
 		mother_name_chance = 10
 	}
 	
-	cumbrian = { #credits to bloodmerchant
+	cumbric = { #credits to bloodmerchant
 		graphical_culture = celticgfx
 		
 		color = { 0.3 0.8 0.6 }
@@ -3804,7 +3804,7 @@ iranian = {
                modifier = cultural_flexibility
 		}
 
-	tajik = {
+	khorasani = {
 		graphical_culture = sogdiangfx
 		second_graphical_culture = muslimgfx # Fallback type
 
@@ -5208,7 +5208,7 @@ north_african = {
 		mother_name_chance = 30
 	}
 	
-	siculo_arabic = {
+	sicilian_arabic = {
 		graphical_culture = andalusiangfx
 		second_graphical_culture = turkishgfx # Fallback type
 		color = { 0.8 0.9 0.2 }
@@ -5852,7 +5852,7 @@ serindian = {
         modifier = religious_and_culture_tolerant_culture
     }
 
-    tocharian = {
+    tokharian = {
         graphical_culture = sogdiangfx
 		second_graphical_culture = muslimgfx
         color = { 0.75 0.45 0.95  }
@@ -5939,7 +5939,7 @@ serindian = {
         modifier = religious_and_culture_tolerant_culture
     }
 
-	sogdian = {
+	soghdian = {
 		graphical_culture = sogdiangfx
 		second_graphical_culture = muslimgfx
 		color = { 0.2 0.05 0.3 }
