@@ -2561,7 +2561,7 @@ east_african = {
 	}
 	
 	somali = {
-		graphical_culture = ethiopiangfx
+		graphical_culture = berbergfx
 		secondary_event_pictures = bedouin_arabic
 		
 		color = { 0.2 0.2 0.1 }
