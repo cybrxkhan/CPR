@@ -208,7 +208,7 @@ central_germanic = {
 		modifier = default_culture_modifier
 	}
 	lombard = {
-		graphical_culture = germangfx
+		graphical_culture = occitangfx
 		
 		color = { 0.6 0.6 0.8 }
 
@@ -253,7 +253,7 @@ central_germanic = {
 		modifier = default_culture_modifier
 	}
 	old_frankish = {
-		graphical_culture = germangfx
+		graphical_culture = frankishgfx
 		
 		color = { 0.3 0.3 0.5 }
 
@@ -301,7 +301,7 @@ central_germanic = {
 		modifier = default_culture_modifier
 	}
 	suebi = {
-		graphical_culture = southerngfx
+		graphical_culture = basquegfx
 		
 		color = { 0.7 0.7 0.7 }
 
@@ -578,7 +578,7 @@ latin = {
 	graphical_culture = westerngfx
 
 	frankish = {
-		graphical_culture = frankishgfx
+		graphical_culture = occitangfx
 		
 		color = { 0.8 0.8 0.2 }
 		male_names = {
@@ -792,7 +792,7 @@ iberian = {
 	graphical_culture = occitangfx
 
 	basque = {
-		graphical_culture = occitangfx
+		graphical_culture = basquegfx
 		
 		color = { 0.55 0.42 0.04 }
 
@@ -920,7 +920,7 @@ iberian = {
 		mother_name_chance = 15
 	}
 	visigothic = {
-		graphical_culture = southerngfx
+		graphical_culture = basquegfx
 		
 		color = { 0.55 0.55 0.15 }
 
@@ -2257,7 +2257,7 @@ south_slavic = {
 		
 	}
 	serbian = {
-		graphical_culture = westernslavicgfx
+		graphical_culture = bohemiangfx
 		
 		color = { 0.5 0.3 0.3 }
 

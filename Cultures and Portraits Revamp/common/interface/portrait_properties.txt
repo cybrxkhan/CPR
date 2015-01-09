@@ -504,6 +504,12 @@
 				has_minor_title = title_prince
 			}
 		}
+		# Does not suit Occitan females
+		modifier = {
+			factor = 0
+			is_female = yes
+			graphical_culture = occitangfx
+		}
 	}
 
 	1 = { # Black Adder

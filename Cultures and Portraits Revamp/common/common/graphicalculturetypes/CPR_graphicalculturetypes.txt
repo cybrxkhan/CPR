@@ -59,6 +59,7 @@ chinesegfx = {
 levantinegfx = {
 	skin_tone = 1
 }
-otakugfx = {
+basquegfx = {
 	skin_tone = 0
 }
+

@@ -1,0 +1,29 @@
+########################################################################
+#
+# CUSTOMIZER CULTURES
+# Unused In-game, Should Not Be Used
+# For Ruler Designer and/or customization
+#
+#
+########################################################################
+
+
+CPR_culture_group = {
+	graphical_culture = byzantinegfx
+	
+	urzhailculture = { #Western apperance with Greek hair and clothing
+		graphical_culture = urzhailculturegfx
+		color = { 0.2 0.65 0.8 }
+		
+		used_for_random = no
+		
+		male_names = {
+			Urzhailius Urzhailio Urzhailion Urzhailios Urzhailik Urzhailang Uruzeiru Er-zhai-le Boromir
+		}
+		female_names = {
+			Urzhailia Urzhailiana Urzhaile Uzhaila Uruzeiro Abracadabria
+		}
+		
+		modifier = default_culture_modifier
+	}
+}
