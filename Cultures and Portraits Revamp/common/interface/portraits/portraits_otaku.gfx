@@ -230,7 +230,7 @@ spriteTypes = {
 			"GFX_empty:p5:c3"
 			"GFX_norse_female_hair_christian:p1:h:y" 
 			"GFX_empty:p3:c4"
-			"GFX_western_female_headgear:p5:c5" 
+			"GFX_eastasian_female_headgear:p5:c5" 
 			"GFX_character_imprisoned:p6"
 		}
 
@@ -291,7 +291,7 @@ spriteTypes = {
 			"GFX_empty:p5:c3"
 			"GFX_norse_female_hair_midage_christian:p1:h:y"
 			"GFX_empty:p3:c4"
-			"GFX_western_female_headgear:p5:c5" 
+			"GFX_eastasian_female_headgear:p5:c5" 
 			"GFX_character_imprisoned:p6"
 		}
 
@@ -352,7 +352,7 @@ spriteTypes = {
 			"GFX_empty:p5:c3"
 			"GFX_norse_female_hair_oldage_christian:p1:y"
 			"GFX_empty:p3:c4"
-			"GFX_western_female_headgear:p5:c5" 
+			"GFX_eastasian_female_headgear:p5:c5" 
 			"GFX_character_imprisoned:p6"
 		}
 

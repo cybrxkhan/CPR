@@ -29,23 +29,23 @@
 }
 1000092805 = {
 	name="Lenin"
-	culture = commie
+	culture = commieculture
 }
 1000092806 = {
 	name="Stalin"
-	culture = commie
+	culture = commieculture
 }
 1000092807 = {
 	name="Mao"
-	culture = commie
+	culture = commieculture
 }
 1000092808 = {
 	name="Marx"
-	culture = commie
+	culture = commieculture
 }
 1000092809 = {
 	name="Romanov"
-	culture = commie
+	culture = commieculture
 }
 1000092810 = {
 	name="Baka"
