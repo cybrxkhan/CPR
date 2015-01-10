@@ -1,7 +1,7 @@
 ########################################################################
 #
 # CUSTOMIZER CULTURES
-# Unused In-game, Should Not Be Used
+# Unused In-game, Not recommended for playing
 # For Ruler Designer and/or customization
 #
 #
@@ -9,11 +9,41 @@
 
 
 CPR_culture_group = {
-	graphical_culture = byzantinegfx
+	graphical_culture = mongolgfx
 	
+	asiancustom = { #Asian
+		graphical_culture = chinesegfx
+		color = { 0.0 0.0 0.0 }
+		
+		used_for_random = no
+		
+		male_names = {
+			Jackie_John William_William Edward_Edward James_James Kevin
+		}
+		female_names = {
+			Tiffany_Theophano Jennifer Tammy
+		}
+		
+		modifier = default_culture_modifier
+	}		
+	otaku = { #Celtic apperance with Asian hair and clothing
+		graphical_culture = otakugfx
+		color = { 0.0 0.0 0.0 }
+		
+		used_for_random = no
+		
+		male_names = {
+			Otaku Weeaboo John_John James_James Smith Sushi Sensei
+		}
+		female_names = {
+			Miku Sakura Kawaii Desudesu
+		}
+		
+		modifier = default_culture_modifier
+	}		
 	urzhailculture = { #Western apperance with Greek hair and clothing
 		graphical_culture = urzhailculturegfx
-		color = { 0.2 0.65 0.8 }
+		color = { 0.0 0.0 0.0 }
 		
 		used_for_random = no
 		
@@ -22,6 +52,21 @@ CPR_culture_group = {
 		}
 		female_names = {
 			Urzhailia Urzhailiana Urzhaile Uzhaila Uruzeiro Abracadabria
+		}
+		
+		modifier = default_culture_modifier
+	}	
+	commieculture = { #Western apperance with Russian hair and clothing
+		graphical_culture = commiegfx
+		color = { 0.0 0.0 0.0 }
+		
+		used_for_random = no
+		
+		male_names = {
+			Boris Vladimir_Vladimir Lev_Leo Ivan_John Dmitriy_Demetrius Karl_Charles
+		}
+		female_names = {
+			Yulia_Julia Natalia_Natalia Olga
 		}
 		
 		modifier = default_culture_modifier

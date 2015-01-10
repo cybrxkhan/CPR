@@ -6,3 +6,9 @@
 urzhailculturegfx = {
 	skin_tone = 0
 }
+commiegfx = {
+	skin_tone = 0
+}
+otakugfx = {
+	skin_tone = 0
+}
