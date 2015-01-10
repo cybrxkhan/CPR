@@ -1,0 +1,44 @@
+================================================
+INTRODVCTION
+================================================
+
+CPR comes with a number of custom portraits. These are generally unused in game, but provided for the player in case they don't like the existing portraits.
+
+Currently, the following custom portrait sets are available:
+
+- commiegfx: Western appearance with Russian clothing hair
+- urzhailculturegfx: Western appearance with Greek clothing and hair
+
+
+
+================================================
+HOW TO ADD TO YOVR GAME
+================================================
+
+There are two easy ways to use the custom portrait sets (there are in fact other ways, but these two are the easiest). Note that if you replacement method, you have to do this every time you install a new version of HIP.
+
+You can follow these instructions to replace any portrait sets with other ones, in fact.
+
+For example's sake, the instructions will use urzhailculturegfx as our example, where we want use it to replace the existing Greek portraits (byzantinegfx).
+
+Before you begin, ALWAYS MAKE A BACK-UP OF YOUR FILES!
+
+
+Ruler Designer Method
+1. When you start a new game, ruler design a character
+2. In the first ruler designer screen, change the ethnicity of your character to the desired culture, for instance, Urzhailian for urzhailculture.
+3. And voila, you're done. Unfortunately, only you will have this new appearance, and not anyone else; however, this is the safest method, and can be used in any combination of cultures and portraits, in fact.
+
+
+Culture Replacement Method:
+1. Go to "mod\Historical Immersion Project\common\cultures" and open up the relevant culture file(s) with notepad++, notepad, or a similar program. Usually this is "00_cultures.txt" though depending on your mod combos there may be other files you'll have to look for.
+2. Since we're replacing byzantinegfx, find every instance of "byzantinegfx" and replace it with "urzhailculturegfx".
+3. And voila, you're done. Every culture you've replaced will now use urzhailculturegfx.
+
+
+
+
+
+
+
+
