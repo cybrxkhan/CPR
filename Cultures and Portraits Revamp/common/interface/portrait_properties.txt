@@ -504,11 +504,16 @@
 				has_minor_title = title_prince
 			}
 		}
-		# Does not suit Occitan females
+		# Does not suit Occitan or Basque females
 		modifier = {
 			factor = 0
 			is_female = yes
 			graphical_culture = occitangfx
+		}
+		modifier = {
+			factor = 0
+			is_female = yes
+			graphical_culture = basquegfx
 		}
 	}
 
