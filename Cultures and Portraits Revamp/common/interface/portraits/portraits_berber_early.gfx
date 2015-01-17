@@ -48,7 +48,7 @@ spriteTypes = {
 			{ 120 74 46 }
 		}
 		
-		headgear_early_that_hides_hair = { }
+		headgear_that_hides_hair = { }
 	}
 	
 	# middle age
@@ -96,7 +96,7 @@ spriteTypes = {
 			{ 120 74 46 }
 		}
 		
-		headgear_early_that_hides_hair = { }
+		headgear_that_hides_hair = { }
 	}
 	
 	# old age
@@ -144,7 +144,7 @@ spriteTypes = {
 			{ 120 74 46 }
 		}
 		
-		headgear_early_that_hides_hair = { }
+		headgear_that_hides_hair = { }
 	}
 
 #### Berber FEMALE ####
@@ -192,7 +192,7 @@ spriteTypes = {
 			{ 255 255 255}
 		}
 		
-		headgear_early_that_hides_hair = { }
+		headgear_that_hides_hair = { }
 	}
 
 	# Berber female midage
@@ -235,7 +235,7 @@ spriteTypes = {
 			{ 255 255 255}
 		}
 		
-		headgear_early_that_hides_hair = { }
+		headgear_that_hides_hair = { }
 	}
 
 	# Berber female oldage
@@ -278,7 +278,7 @@ spriteTypes = {
 			{ 255 255 255}
 		}
 		
-		headgear_early_that_hides_hair = { }
+		headgear_that_hides_hair = { }
 	}	
 	
 }
