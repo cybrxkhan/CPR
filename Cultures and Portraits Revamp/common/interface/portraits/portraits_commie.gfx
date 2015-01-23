@@ -1,5 +1,19 @@
 spriteTypes = {
 
+	spriteType = {
+		name = "PORTRAIT_commiegfx_child_male"
+		texturefile = "gfx\\characters\\default_son_easternslavic.tga"
+		noOfFrames = 1
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "PORTRAIT_commiegfx_child_female"
+		texturefile = "gfx\\characters\\default_daughter_easternslavic.tga"
+		noOfFrames = 1
+		norefcount = yes
+	}
+
 	portraitType = {
 		name = "PORTRAIT_commiegfx_male"
 		effectFile = "gfx/FX/portrait.lua"
