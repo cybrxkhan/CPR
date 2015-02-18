@@ -12,3 +12,9 @@ commiegfx = {
 otakugfx = {
 	skin_tone = 0
 }
+kpopgfx = {
+	skin_tone = 1
+}
+silkroadgfx = {
+	skin_tone = 1
+}

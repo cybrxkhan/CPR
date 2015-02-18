@@ -71,4 +71,34 @@ CPR_culture_group = {
 		
 		modifier = default_culture_modifier
 	}
+	kpop = { #Mongol appearance with Iranian clothes and hair
+		graphical_culture = kpopgfx
+		color = { 0.0 0.0 0.0 }
+		
+		used_for_random = no
+		
+		male_names = {
+			Timmy Beef-Jerky Sejong Chung Wongydongy
+		}
+		female_names = {
+			Silken Spicy Eunice Grace Hannah Hanna Hannana Hanananana Yaoi
+		}
+		
+		modifier = default_culture_modifier
+	}
+	silkroad = { #Mongol appearance with Arab clothes and hair
+		graphical_culture = silkroadgfx
+		color = { 0.0 0.0 0.0 }
+		
+		used_for_random = no
+		
+		male_names = {
+			Silky Silkius Camel-Herder Loplop Trapezeus Banchao
+		}
+		female_names = {
+			Silken Silkia Turfania Xinjiang Missa
+		}
+		
+		modifier = default_culture_modifier
+	}
 }

@@ -87,3 +87,43 @@
 	name="Lee"
 	culture = asiancustom
 }
+1000092820 = {
+	name="Park"
+	culture = kpop
+}
+1000092821 = {
+	name="Lee"
+	culture = kpop
+}
+1000092822 = {
+	name="Hwang"
+	culture = kpop
+}
+1000092823 = {
+	name="Rhee"
+	culture = kpop
+}
+1000092824 = {
+	name="Surgery"
+	culture = kpop
+}
+1000092825 = {
+	name="Johnouchi" #Look up Missa Johnouchi's music, it's great!
+	culture = silkroad
+}
+1000092826 = {
+	name="von Silk"
+	culture = silkroad
+}
+1000092827 = {
+	name="Dzungar"
+	culture = silkroad
+}
+1000092828 = {
+	name="Liao"
+	culture = silkroad
+}
+1000092829 = {
+	name="Silk"
+	culture = silkroad
+}
