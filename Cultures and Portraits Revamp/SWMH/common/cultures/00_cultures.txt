@@ -552,7 +552,7 @@ west_germanic = {
 		mother_name_chance = 5
 
 		dukes_called_kings = yes
-        }
+    }
 		
 	old_saxon = {
 		graphical_culture = saxongfx
@@ -604,7 +604,7 @@ west_germanic = {
 
 		modifier = default_culture_modifier
 	}
-        anglonorse = {
+    anglonorse = {
 		graphical_culture = norsegfx
 		
 		color = { 1.0 0.33 0.33 }
@@ -1699,7 +1699,7 @@ finno_ugric = {
 
 		modifier = finish_culture_modifier
 	}
-        karelian = {
+	karelian = {
 		graphical_culture = ugricgfx
 		color = { 0.1 0.45 0.55 }
 
@@ -1724,7 +1724,7 @@ finno_ugric = {
 
 		modifier = finish_culture_modifier
 	}
-        vepsian = {
+	vepsian = {
 		graphical_culture = ugricgfx
 		color = { 0.15 0.5 0.35 }
 
@@ -1749,7 +1749,7 @@ finno_ugric = {
 
 		modifier = finish_culture_modifier
 	}
-        mari = {
+	mari = {
 		graphical_culture = ugricgfx
 		color = { 0.9 0.65 0.6 }
 
@@ -1774,7 +1774,7 @@ finno_ugric = {
 
 		modifier = finish_culture_modifier
 	}
-        ingrian = {
+	ingrian = {
 		graphical_culture = ugricgfx
 		color = { 0.3 0.7 0.5 }
 
@@ -1841,41 +1841,41 @@ finno_ugric = {
 		
 		modifier = finish_culture_modifier
 	}
-        tsuudi = {
+	tsuudi = {
 		graphical_culture = ugricgfx
 		color = { 0.3 0.8 0.8 }
 
 		male_names = {
-                Aare Agu Ahas Ahti Ain Alo Anderikas Aopelg Aotõiv Armas Arp Arvo Atko Aulemb Hain Haljas Heameel Heatõiv Helemeel Helmetõiv Hoovatõiv Hurmas 
-                Hurmetõiv Hõimulemb Hüvalemb Hüvameel Hüvatõiv Igalemb Igapäiv Ihameel Ihalemb Ihatõiv Ihavald Ihar Ilmalemb Ilmar Ilvelemb Jaolemb Kaaren Kahar 
-                Kahru Kahrulemb Kahus Kail Kalev Kalju Kaljuvald Kaomeel Kari Karuvald Kaugemeel Kaur Kessu Kiur Kiurupelg Koit Küllelemb Leetõiv Lembit Leppetõiv 
-                Lible Lättelemb Manivald Mart Neeme Niglas Ohetõiv Ohevald Ott Otelemb Piho Päevalemb Raho Rahuleid Sulev Sutemeel Sutepelg Tarvet Tasulemb Toom Tuglas 
-                Tunne Tutkas Tuul Tõeleid Tõiv Tõivulemb Tõll Tõnn Uku Unipäiv Vandemeel Varjelemb Vello Vesse Vihavald Vililemb Vilimeel Vilitõiv Vilivald Värvo Oigemeel Ülo
+			Aare Agu Ahas Ahti Ain Alo Anderikas Aopelg Aotõiv Armas Arp Arvo Atko Aulemb Hain Haljas Heameel Heatõiv Helemeel Helmetõiv Hoovatõiv Hurmas 
+			Hurmetõiv Hõimulemb Hüvalemb Hüvameel Hüvatõiv Igalemb Igapäiv Ihameel Ihalemb Ihatõiv Ihavald Ihar Ilmalemb Ilmar Ilvelemb Jaolemb Kaaren Kahar 
+			Kahru Kahrulemb Kahus Kail Kalev Kalju Kaljuvald Kaomeel Kari Karuvald Kaugemeel Kaur Kessu Kiur Kiurupelg Koit Küllelemb Leetõiv Lembit Leppetõiv 
+			Lible Lättelemb Manivald Mart Neeme Niglas Ohetõiv Ohevald Ott Otelemb Piho Päevalemb Raho Rahuleid Sulev Sutemeel Sutepelg Tarvet Tasulemb Toom Tuglas 
+			Tunne Tutkas Tuul Tõeleid Tõiv Tõivulemb Tõll Tõnn Uku Unipäiv Vandemeel Varjelemb Vello Vesse Vihavald Vililemb Vilimeel Vilitõiv Vilivald Värvo Oigemeel Ülo
 		}
 		female_names = {
-                        Aasa Aime Aita Aldi Anni Annika Are Auli Aune Ebe Elo Ere Hele Heli Helina Helgi Helmi Helbe Helve Hiie Hämarik Ida Ilmi Ilme Ilo Kaili Kaja Kalli Kare 
-                        Kiire Killu Käbi Lagle Laine Lee Leelo Leili Lemme Liisu Lill Luule Mari Marja Meeli Niine Ninni Pilve Põim Päivi Salme Säde Taimi Tiiu Tui Urve Viire Vilja 
-                        Virge Virve Värvu Oie Onne Ülane
-			}
+			Aasa Aime Aita Aldi Anni Annika Are Auli Aune Ebe Elo Ere Hele Heli Helina Helgi Helmi Helbe Helve Hiie Hämarik Ida Ilmi Ilme Ilo Kaili Kaja Kalli Kare 
+			Kiire Killu Käbi Lagle Laine Lee Leelo Leili Lemme Liisu Lill Luule Mari Marja Meeli Niine Ninni Pilve Põim Päivi Salme Säde Taimi Tiiu Tui Urve Viire Vilja 
+			Virge Virve Värvu Oie Onne Ülane
+		}
                 
-                from_dynasty_prefix = "of "
+		from_dynasty_prefix = "of "
              
 		modifier = baltic_culture_modifier
 	}
-        livonian = {
+	livonian = {
 		graphical_culture = ugricgfx
 		color = { 0.35 0.85 0.9 }
 
 		male_names = {
-                Meluke Paike Utile Ylo Kulewene Gerveders Kaupo Anno Imauts Aso Ako Ase Vievaldis Dabrelis Vetseke Edruma Madis
-                Uldenago Viliendi Vade Vieco
+			Meluke Paike Utile Ylo Kulewene Gerveders Kaupo Anno Imauts Aso Ako Ase Vievaldis Dabrelis Vetseke Edruma Madis
+			Uldenago Viliendi Vade Vieco
 
 		}
 		female_names = {
-                Elmede Helgi Helju Helmi Helvi Hilja Ilma Imake Imatra Imetra Imma Jumara Leili Lelu Liva Maimu Olavi Raili Vanema Julgi Ki
+			Elmede Helgi Helju Helmi Helvi Hilja Ilma Imake Imatra Imetra Imma Jumara Leili Lelu Liva Maimu Olavi Raili Vanema Julgi Ki
 		}
 
-                from_dynasty_prefix = "of "
+		from_dynasty_prefix = "of "
 
 		modifier = baltic_culture_modifier
 	}        
@@ -1884,16 +1884,16 @@ finno_ugric = {
 		color = { 0.3 0.75 0.75 }
 
 		male_names = {
-		Aranti Ampuja Asikka Artukka Aikamieli Aikio Ano Arijoutsi Arpia Auvo Armas Arvo Asikko Ensio Eura Himottu Hirvi Havu Harmaa Haukka 
-		Huuhka Hyväri Hyvälempi Hyvätty Härkäpää Hintsa Ihanti Ihalempi Ihamuoto Ikävalko Ilakka Ilma Ilmatoivia Ikitiera Ikopäivä Ilmo Into Jalkava Jurva
-		Kaleva Kaivattu Kainu Kaipia Koveri Kulta Kupias Kaukovalta Keiho Kekko Kokko Kostia Kotarikko Kultamies Kova Kukko Kurittu Kalevi Kettu Kolli 
-		Lintu Lemetti Lempi Leino Lemmäs Lempo Maanavilja Montaja Menikko Mustia Miero Mielikko Mielitty Mietti Miemo Miela Nousia Neuvo Nuolia Ohto Ora Otra Osma Oivas Otava Otso 
-		Paaso Puukko Pitkäpää Pitkä Päiviö Rautio Rahikka Reko Repo Saukko Suorsa Satajalka Satatieto Sotijalo Seppo Susi Torittu Terätautia
-		Terho Tapatora Tammi Tapavaino Tietävä Tornio Toivas Tulo Titti Toikka Toivo Tuokki Torio Unaja Uro Utujoutsi Ukko Uoti Urho Väinö Vaania Vaito Vartia Valta Valtari Vihavaino Viljakka Valto Veli Viti Villi Voitto
+			Aranti Ampuja Asikka Artukka Aikamieli Aikio Ano Arijoutsi Arpia Auvo Armas Arvo Asikko Ensio Eura Himottu Hirvi Havu Harmaa Haukka 
+			Huuhka Hyväri Hyvälempi Hyvätty Härkäpää Hintsa Ihanti Ihalempi Ihamuoto Ikävalko Ilakka Ilma Ilmatoivia Ikitiera Ikopäivä Ilmo Into Jalkava Jurva
+			Kaleva Kaivattu Kainu Kaipia Koveri Kulta Kupias Kaukovalta Keiho Kekko Kokko Kostia Kotarikko Kultamies Kova Kukko Kurittu Kalevi Kettu Kolli 
+			Lintu Lemetti Lempi Leino Lemmäs Lempo Maanavilja Montaja Menikko Mustia Miero Mielikko Mielitty Mietti Miemo Miela Nousia Neuvo Nuolia Ohto Ora Otra Osma Oivas Otava Otso 
+			Paaso Puukko Pitkäpää Pitkä Päiviö Rautio Rahikka Reko Repo Saukko Suorsa Satajalka Satatieto Sotijalo Seppo Susi Torittu Terätautia
+			Terho Tapatora Tammi Tapavaino Tietävä Tornio Toivas Tulo Titti Toikka Toivo Tuokki Torio Unaja Uro Utujoutsi Ukko Uoti Urho Väinö Vaania Vaito Vartia Valta Valtari Vihavaino Viljakka Valto Veli Viti Villi Voitto
 		}
 		female_names = {
-		Aamu Aino Hellä Helmi Hellikki Hopea Ilta Kaarina_Catherine Käpy Kielo Kukka Kuutamo Läpsä Lauha Lempi Liekko Mahla Maija Marja Mesi Metta Oiva Päivä Päivi Pihla Pilvi Pyry Rauha Raita Sati
-		Sisko Suoma Salme Taimi Talvikki Terhi Tuija Tuovi Tuuli Tuulikki Tuomikki Tyyne Tyyni Vanamo Venla
+			Aamu Aino Hellä Helmi Hellikki Hopea Ilta Kaarina_Catherine Käpy Kielo Kukka Kuutamo Läpsä Lauha Lempi Liekko Mahla Maija Marja Mesi Metta Oiva Päivä Päivi Pihla Pilvi Pyry Rauha Raita Sati
+			Sisko Suoma Salme Taimi Talvikki Terhi Tuija Tuovi Tuuli Tuulikki Tuomikki Tyyne Tyyni Vanamo Venla
 		}
 		
 		from_dynasty_prefix = "of "
@@ -1925,9 +1925,8 @@ finno_ugric = {
 
 		modifier = default_culture_modifier
 	}
-        samoyed = { # AKA Bjarmian
+	samoyed = { # AKA Bjarmian
 		graphical_culture = siberiangfx
-		
 		color = { 0.3 0.75 0.75 }
 
 		male_names = {
