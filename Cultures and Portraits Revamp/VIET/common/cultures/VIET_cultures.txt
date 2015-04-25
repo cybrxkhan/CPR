@@ -4676,7 +4676,7 @@ israelite = {
 	}	
 
 	italian_jewish = { #Italian Jews, based on Sephardic list originally compiled by Thure
-		graphical_culture = southerngfx
+		graphical_culture = italiangfx
 		
 		color = { 0.5 0.55 0.35 }
 
@@ -4755,7 +4755,7 @@ latin = {
 	graphical_culture = westerngfx
 
 	italian = {
-		graphical_culture = southerngfx
+		graphical_culture = italiangfx
 		second_graphical_culture = occitangfx # Fallback type
 		
 		color = { 0.8 0.7 0.2 }
@@ -4916,7 +4916,7 @@ latin = {
 	}
 	
 	roman = { # Roman
-		graphical_culture = southerngfx
+		graphical_culture = italiangfx
 		second_graphical_culture = occitangfx # Fallback type
 		
 		color = { 0.8 0.8 0.4 }

@@ -62,4 +62,7 @@ levantinegfx = {
 basquegfx = {
 	skin_tone = 0
 }
+italiangfx = {
+	skin_tone = 1
+}
 

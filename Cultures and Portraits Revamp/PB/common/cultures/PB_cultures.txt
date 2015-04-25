@@ -53,7 +53,7 @@ south_slavic = {
 latin = {
 	graphical_culture = westerngfx
 	sicilian = {
-		graphical_culture = southerngfx
+		graphical_culture = italiangfx
 		
 		color = { 0.8 0.7 0.15 }
 
