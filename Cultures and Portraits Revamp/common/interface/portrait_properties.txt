@@ -10,7 +10,7 @@
 		}
 	}
 
-	1 = { #throne room
+	1 = { #throne room 
 		factor = 30
 		modifier = {
 			factor = 0
