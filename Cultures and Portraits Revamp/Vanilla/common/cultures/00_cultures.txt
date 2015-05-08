@@ -657,7 +657,7 @@ latin = {
 		modifier = default_culture_modifier
 	}
 	italian = {
-		graphical_culture = southerngfx
+		graphical_culture = italiangfx
 		second_graphical_culture = occitangfx # Fallback type
 		
 		color = { 0.95 0.95 0.75 }
@@ -745,7 +745,7 @@ latin = {
 		mother_name_chance = 5
 	}
 	roman = {
-		graphical_culture = southerngfx
+		graphical_culture = italiangfx
 		second_graphical_culture = occitangfx # Fallback type
 		
 		color = { 0.8 0.7 0.2 }

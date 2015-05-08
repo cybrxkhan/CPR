@@ -839,7 +839,7 @@ latin = {
 		modifier = default_culture_modifier
 	}
 	sicilian = {
-		graphical_culture = southerngfx
+		graphical_culture = italiangfx
 		
 		color = { 0.8 0.7 0.15 }
 

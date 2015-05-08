@@ -3736,7 +3736,7 @@ italian_group = {
 	graphical_culture = westerngfx
 
         sardinian = {
-		graphical_culture = southerngfx
+		graphical_culture = italiangfx
 		second_graphical_culture = occitangfx # Fallback type
 
 		color = { 0.85 0.75 0.15 }
@@ -3762,7 +3762,7 @@ italian_group = {
 		mother_name_chance = 5
 		}
         sicilian = {
-		graphical_culture = byzantinegfx
+		graphical_culture = italiangfx
 		
 		color = { 0.8 0.7 0.15 }
 
@@ -3811,7 +3811,7 @@ italian_group = {
 		mother_name_chance = 5
         }
 	corsican = {
-		graphical_culture = southerngfx
+		graphical_culture = italiangfx
 		second_graphical_culture = occitangfx # Fallback type
 		
 		color = { 0.9 0.7 0.1 }
@@ -3861,7 +3861,7 @@ italian_group = {
 		mother_name_chance = 5
         }
 	central_italian = {
-		graphical_culture = southerngfx
+		graphical_culture = italiangfx
 		second_graphical_culture = occitangfx # Fallback type
 		
 		color = { 0.7 0.9 0.1 }
@@ -3916,7 +3916,7 @@ italian_group = {
 		mother_name_chance = 5
         }
 	southern_italian = {
-		graphical_culture = southerngfx
+		graphical_culture = italiangfx
 		second_graphical_culture = occitangfx # Fallback type
 		
 		color = { 0.8 0.1 0.1 }
@@ -3966,7 +3966,7 @@ italian_group = {
 		mother_name_chance = 5
 	}
         neapolitan = {
-		graphical_culture = southerngfx
+		graphical_culture = italiangfx
 		second_graphical_culture = occitangfx # Fallback type
 		
 		color = { 0.8 0.6 0.15 }
@@ -4016,7 +4016,7 @@ italian_group = {
 		mother_name_chance = 5
 	}
 	tuscan = {
-		graphical_culture = southerngfx
+		graphical_culture = italiangfx
 		second_graphical_culture = occitangfx # Fallback type
 		
 		color = { 0.6 0.1 0.1 }
@@ -4152,7 +4152,7 @@ italian_group = {
 		mother_name_chance = 5
 	}
 	italian = {
-		graphical_culture = southerngfx
+		graphical_culture = italiangfx
 		second_graphical_culture = occitangfx # Fallback type
 		
 		color = { 0.95 0.95 0.75 }
@@ -4207,7 +4207,7 @@ italian_group = {
 		mother_name_chance = 5
         }
 	venetian = {
-		graphical_culture = occitangfx
+		graphical_culture = italiangfx
 		#second_graphical_culture = occitangfx # Fallback type
 		
 		color = { 0.1 0.5 0.9 }
@@ -4259,7 +4259,7 @@ italian_group = {
 		mother_name_chance = 5
         }
         roman = {
-		graphical_culture = southerngfx
+		graphical_culture = italiangfx
 		second_graphical_culture = occitangfx # Fallback type
 		
 		color = { 0.7 0.5 0.7 }

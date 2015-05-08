@@ -32,3 +32,4 @@ province_new.gfx
 3. Go to "Cultures and Portraits Revamp/common/graphicalculturetypes" and delete "00_graphicalculturetype.txt"
 
 4. That should be it.
+:)

@@ -10,7 +10,7 @@
 		}
 	}
 
-	1 = { #throne room
+	1 = { #throne room 
 		factor = 30
 		modifier = {
 			factor = 0
@@ -397,6 +397,7 @@
 			factor = 0
 			NOT = { culture_group = iberian }
 			NOT = { culture_group = north_african }
+			NOT = { culture_group = arabic }
 			NOT = { culture = sephardi }
 		}
 		modifier = {
@@ -443,18 +444,14 @@
 		}
 	}
 	
-	25 = { # Tuscan Countryside
+	25 = { # Indian
 		factor = 1
 		modifier = {
 			factor = 0
-			NOT = { culture_group = iberian }
-			NOT = { culture_group = north_african }
-			NOT = { culture_group = latin }
-			NOT = { culture_group = italian_group }
-			NOT = { culture = greek }
-			NOT = { culture = griko }
-			NOT = { culture = croatian }
-			NOT = { culture = serbian }
+			NOT = { culture_group = indo_aryan_group }
+			NOT = { culture_group = dravidian_group }
+			NOT = { culture = afghan }
+			NOT = { culture = baloch }
 		}
 	}
 	
