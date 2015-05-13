@@ -68,3 +68,6 @@ italiangfx = {
 southernslavicgfx = {
 	skin_tone = 0
 }
+maghrebgfx = {
+	skin_tone = 2
+}
