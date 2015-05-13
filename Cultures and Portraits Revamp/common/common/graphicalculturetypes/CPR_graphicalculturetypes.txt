@@ -71,3 +71,9 @@ southernslavicgfx = {
 maghrebgfx = {
 	skin_tone = 2
 }
+sindhigfx = {
+	skin_tone = 1
+}
+normangfx = {
+	skin_tone = 0
+}
