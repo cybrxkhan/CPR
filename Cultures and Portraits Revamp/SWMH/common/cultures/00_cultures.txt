@@ -3428,7 +3428,7 @@ songhai = {
 north_african = {
 
 	berber = {
-		graphical_culture = muslimgfx
+		graphical_culture = maghrebgfx
 		
 		color = { 0.4 0.3 0.2 }
 		
@@ -3462,7 +3462,7 @@ north_african = {
              
 	}
 	sanhaja = {
-		graphical_culture = muslimgfx
+		graphical_culture = maghrebgfx
 		
 		color = { 0.4 0.3 0.2 }
 		
@@ -3539,7 +3539,7 @@ north_african = {
              
 	}
 	masmuda = {
-		graphical_culture = muslimgfx
+		graphical_culture = maghrebgfx
 		
 		color = { 0.4 0.4 0.2 }
 		
@@ -3577,7 +3577,7 @@ north_african = {
              
 	}
 	zanata = {
-		graphical_culture = muslimgfx
+		graphical_culture = maghrebgfx
 		
 		color = { 0.4 0.7 0.2 }
 		
