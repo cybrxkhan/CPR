@@ -3067,7 +3067,7 @@ indo_aryan_group = {
 	}
 	
 	panjabi = { # Indo-Aryan
-		graphical_culture = indiangfx
+		graphical_culture = sindhigfx
 		second_graphical_culture = muslimgfx # Fallback type
 		secondary_event_pictures = bedouin_arabic
 		
@@ -3164,7 +3164,7 @@ indo_aryan_group = {
 	}
 
 	sindhi = { # Indo-Aryan
-		graphical_culture = indiangfx
+		graphical_culture = sindhigfx
 		second_graphical_culture = muslimgfx # Fallback type
 		secondary_event_pictures = bedouin_arabic
 		
