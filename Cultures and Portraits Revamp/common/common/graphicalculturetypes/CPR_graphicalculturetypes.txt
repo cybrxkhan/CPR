@@ -65,4 +65,6 @@ basquegfx = {
 italiangfx = {
 	skin_tone = 1
 }
-
+southernslavicgfx = {
+	skin_tone = 0
+}
