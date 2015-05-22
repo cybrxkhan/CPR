@@ -90,6 +90,7 @@ arabicgfx = {
 }
 turkishgfx = {
 	skin_tone = 1
+	christian_portraits = yes
 }
 mongolgfx = {
 	skin_tone = 1
@@ -117,6 +118,7 @@ immortalsgfx = {
 
 westafricangfx = {
 	skin_tone = 3
+	christian_portraits = yes
 }
 
 persiangfx = {

@@ -10,7 +10,7 @@
 		}
 	}
 
-	1 = { #throne room 
+	1 = { #throne room
 		factor = 30
 		modifier = {
 			factor = 0
@@ -1019,7 +1019,7 @@
 		modifier = {
 			factor = 0
 			in_command = no
-			NOT = { has_job_title  = job_marshal }
+			NOT = { has_job_title = job_marshal }
 			NOT = { martial = 30 }
 			NOT = {
 				primary_title = {
@@ -1337,6 +1337,7 @@
 		modifier = {
 			factor = 0
 			is_feudal = no
+			is_tribal = no
 		}
 		modifier = {
 			factor = 0
@@ -1358,6 +1359,7 @@
 		modifier = {
 			factor = 0
 			is_feudal = no
+			is_tribal = no
 		}
 		modifier = {
 			factor = 0
@@ -1379,6 +1381,7 @@
 		modifier = {
 			factor = 0
 			is_feudal = no
+			is_tribal = no
 		}
 		modifier = {
 			factor = 0
@@ -1400,6 +1403,7 @@
 		modifier = {
 			factor = 0
 			is_feudal = no
+			is_tribal = no
 		}
 		modifier = {
 			factor = 0
@@ -1415,7 +1419,10 @@
 		factor = 1
 		modifier = {
 			factor = 0
-			is_feudal = yes
+			OR = {
+				is_feudal = yes
+				is_tribal = yes
+			}
 			NOT = { real_tier = duke }
 			NOT = { spouse = { real_tier = duke } }
 			NOT = { has_minor_title = title_prince }
@@ -1433,7 +1440,10 @@
 		}
 		modifier = {
 			factor = 0
-			is_feudal = yes
+			OR = {
+				is_feudal = yes
+				is_tribal = yes
+			}
 			real_tier = king
 		}
 		modifier = {
@@ -1443,16 +1453,16 @@
 				trait = heresiarch
 			}
 		}
-		modifier = {
-			factor = 0.1
-			AND = {
-				NOT = { religion_group = pagan_group }
-				OR = {
-					graphical_culture = africangfx
-					graphical_culture = westafricangfx
-				}
-			}
-		}
+		#modifier = {
+		#	factor = 0.1
+		#	AND = {
+		#		NOT = { religion_group = pagan_group }
+		#		OR = {
+		#			graphical_culture = africangfx
+		#			graphical_culture = westafricangfx
+		#		}
+		#	}
+		#}
 	}
 
 	# Common headgear 1 - hood
@@ -1463,11 +1473,15 @@
 			NOT = { trait = peasant_leader }
 			NOT = { trait = heresiarch }
 			OR = {
-				is_ruler = yes
+				real_tier = emperor
+				real_tier = king
+				real_tier = duke
+				real_tier = count
 				has_minor_title = title_prince
 				spouse = { real_tier = emperor }
 				spouse = { real_tier = king }
 				spouse = { real_tier = duke }
+				spouse = { real_tier = count }
 			}
 		}
 		modifier = {
@@ -1491,7 +1505,10 @@
 			NOT = { trait = peasant_leader }
 			NOT = { trait = heresiarch }
 			OR = {
-				is_ruler = yes
+				AND = {
+					NOT = { real_tier = count }
+					NOT = { spouse = { real_tier = count } }
+				}
 				has_minor_title = title_prince
 				spouse = { real_tier = emperor }
 				spouse = { real_tier = king }
@@ -1508,8 +1525,11 @@
 			NOT = { trait = peasant_leader }
 			NOT = { trait = heresiarch }
 			OR = {
-				NOT = { religion = orthodox }
-				is_ruler = yes
+				#NOT = { religion = orthodox }
+				AND = {
+					NOT = { real_tier = count }
+					NOT = { spouse = { real_tier = count } }
+				}
 				has_minor_title = title_prince
 				spouse = { real_tier = emperor }
 				spouse = { real_tier = king }
@@ -1526,11 +1546,15 @@
 			NOT = { trait = peasant_leader }
 			NOT = { trait = heresiarch }
 			OR = {
-				is_ruler = yes
+				real_tier = emperor
+				real_tier = king
+				real_tier = duke
+				real_tier = count
 				has_minor_title = title_prince
 				spouse = { real_tier = emperor }
 				spouse = { real_tier = king }
 				spouse = { real_tier = duke }
+				spouse = { real_tier = count }
 			}
 		}
 		#Prevent Guanche from having turbans
@@ -1566,16 +1590,16 @@
 				NOT = { intrigue = 10 }
 			}
 		}
-		modifier = {
-			factor = 0.1
-			AND = {
-				NOT = { religion_group = pagan_group }
-				OR = {
-					graphical_culture = africangfx
-					graphical_culture = westafricangfx
-				}
-			}
-		}
+		#modifier = {
+		#	factor = 0.1
+		#	AND = {
+		#		NOT = { religion_group = pagan_group }
+		#		OR = {
+		#			graphical_culture = africangfx
+		#			graphical_culture = westafricangfx
+		#		}
+		#	}
+		#}
 	}
 
 	# Martial headgear
@@ -1601,7 +1625,17 @@
 		modifier = {
 			factor = 0
 			in_command = no
-			is_female = yes
+			OR = {
+				is_female = yes
+				AND = {
+					real_tier = duke
+					any_demesne_title = {
+						tier = baron
+					}
+					primary_title = { mercenary = no }
+					primary_title = { holy_order = no }
+				}
+			}
 		}
 	}
 
@@ -1614,10 +1648,19 @@
 				real_tier = emperor
 				real_tier = king
 				real_tier = duke
+				real_tier = count
 				has_minor_title = title_prince
 				spouse = { real_tier = emperor }
 				spouse = { real_tier = king }
 				spouse = { real_tier = duke }
+				spouse = { real_tier = count }
+			}
+		}
+		modifier = {
+			factor = 0.33
+			OR = {
+				real_tier = baron
+				spouse = { real_tier = baron }
 			}
 		}
 	}

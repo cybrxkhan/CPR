@@ -263,7 +263,7 @@ spriteTypes = {
 			"GFX_african_female_clothes:p3:c2"
 			"GFX_african_female_headgear_mid:p5:c3"
 			"GFX_african_female_hair_midage:p1:y"
-			":p3:c4"
+			"GFX_empty:p3:c4"
 			"GFX_character_scars:p7"
 			"GFX_character_reddots:p8"
 			"GFX_character_boils:p9"

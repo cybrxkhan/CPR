@@ -709,7 +709,7 @@ latin = {
 		modifier = default_culture_modifier
 	}
 	italian = {
-		graphical_culture = southerngfx
+		graphical_culture = italiangfx
 		second_graphical_culture = occitangfx # Fallback type
 		
 		color = { 0.95 0.95 0.75 }
@@ -797,7 +797,7 @@ latin = {
 		mother_name_chance = 5
 	}
 	roman = {
-		graphical_culture = southerngfx
+		graphical_culture = italiangfx
 		second_graphical_culture = occitangfx # Fallback type
 		
 		color = { 0.8 0.7 0.2 }
@@ -1065,6 +1065,7 @@ byzantine = {
 
 	armenian = {
 		graphical_culture = georgiangfx
+		second_graphical_culture = byzantinegfx
 		
 		color = { 0.5 0.2 0.5 }
 
@@ -1127,6 +1128,7 @@ byzantine = {
 	}
 	alan = {
 		graphical_culture = alangfx
+		second_graphical_culture = byzantinegfx
 		
 		color = { 0.7 0.5 0.7 }
 
@@ -1152,6 +1154,7 @@ byzantine = {
 	}
 	georgian = {
 		graphical_culture = georgiangfx
+		second_graphical_culture = byzantinegfx
 		
 		color = { 0.6 0.3 0.8 }
 
@@ -1324,6 +1327,7 @@ celtic = {
 	}
 	welsh = {
 		graphical_culture = bretongfx
+		second_graphical_culture = celticgfx
 		
 		color = { 0.3 0.8 0.6 }
 
@@ -1387,6 +1391,7 @@ celtic = {
 	}
 	breton = {
 		graphical_culture = bretongfx
+		second_graphical_culture = celticgfx
 		
 		color = { 0.3 0.5 0.4 }
 		
@@ -1560,6 +1565,7 @@ finno_ugric = {
 	
 	khanty = {
 		graphical_culture = siberiangfx
+		second_graphical_culture = ugricgfx
 		
 		color = { 0.4 0.65 0.20 }
 
@@ -1584,6 +1590,7 @@ finno_ugric = {
 	
 	samoyed = { # AKA Nenets
 		graphical_culture = siberiangfx
+		second_graphical_culture = ugricgfx
 		
 		color = { 0.3 0.75 0.75 }
 
@@ -1628,6 +1635,7 @@ baltic = {
 
 	lettigallish = {
 		graphical_culture = balticgfx
+		second_graphical_culture = ugricgfx
 		
 		color = { 0.5 0.5 0.1 }
 
@@ -1648,6 +1656,7 @@ baltic = {
 	}
 	lithuanian = {
 		graphical_culture = balticgfx
+		second_graphical_culture = ugricgfx
 		
 		color = { 0.56 0.55 0.2 }
 
@@ -1668,6 +1677,7 @@ baltic = {
 	}
 	prussian = {
 		graphical_culture = balticgfx
+		second_graphical_culture = ugricgfx
 		
 		color = { 0.56 0.55 0.4 }
 
@@ -1717,6 +1727,7 @@ altaic = {
 	}
 	pecheneg = { # Oghuz Turkish
 		graphical_culture = steppegfx
+		second_graphical_culture = turkishgfx
 		secondary_event_pictures = bedouin_arabic
 		
 		color = { 0.85 0.79 0.25 }
@@ -1758,6 +1769,7 @@ altaic = {
 	
 	khazar = { # Oghur Turkish
 		graphical_culture = steppegfx
+		second_graphical_culture = turkishgfx
 		secondary_event_pictures = bedouin_arabic
 		
 		color = { 0.7 0.45 0.1 }
@@ -1804,7 +1816,7 @@ altaic = {
 	
 	avar = { # Oghur Turkish
 		graphical_culture = steppegfx
-		second_graphical_culture = easterngfx
+		second_graphical_culture = turkishgfx #easterngfx
 		secondary_event_pictures = bedouin_arabic
 
 		color = { 0.7 0.7 0.3 }
@@ -1831,6 +1843,7 @@ altaic = {
 	
 	karluk = {
 		graphical_culture = centralasiangfx
+		second_graphical_culture = turkishgfx
 		secondary_event_pictures = bedouin_arabic
 		
 		color = { 0.65 0.50 0.15 }
@@ -1852,6 +1865,7 @@ altaic = {
 	
 	kirghiz = {
 		graphical_culture = centralasiangfx
+		second_graphical_culture = turkishgfx
 		secondary_event_pictures = bedouin_arabic
 		
 		color = { 0.85 0.72 0.30 }
@@ -1932,7 +1946,7 @@ arabic = {
 		modifier = default_culture_modifier
 	}
 	maghreb_arabic = { # Berber
-		graphical_culture = arabicgfx
+		graphical_culture = maghrebgfx
 		second_graphical_culture = muslimgfx
 		
 		color = { 0.2 0.9 0.2 }
@@ -2382,7 +2396,7 @@ south_slavic = {
 		modifier = default_culture_modifier
 	}
 	romanian = {
-		graphical_culture = westernslavicgfx
+		graphical_culture = southernslavicgfx
 
 		color = { 0.6 0.4 0.4 }
 

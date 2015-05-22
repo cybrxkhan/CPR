@@ -814,6 +814,7 @@ iberian = {
 	}
   andalusian_arabic = {
 		graphical_culture = andalusiangfx
+		second_graphical_culture = muslimgfx
 		
 		color = { 0.4 0.6 0.1 }
 
@@ -1132,6 +1133,7 @@ byzantine = {
 
 	armenian = {
 		graphical_culture = georgiangfx
+		second_graphical_culture = byzantinegfx
 		
 		color = { 0.5 0.2 0.5 }
 
@@ -1193,7 +1195,8 @@ byzantine = {
 		modifier = greek_culture_modifier
 	}
 	romanian = {
-		graphical_culture = westernslavicgfx
+		graphical_culture = southernslavicgfx
+		second_graphical_culture = byzantinegfx
 
 		color = { 0.6 0.4 0.4 }
 
@@ -1235,7 +1238,7 @@ byzantine = {
 	}
 	alan = {
 		graphical_culture = alangfx
-        second_graphical_culture = easterngfx# Fallback type
+        second_graphical_culture = byzantinegfx #easterngfx# Fallback type
 		
 		color = { 0.7 0.5 0.7 }
 
@@ -1317,6 +1320,7 @@ byzantine = {
 	}
         arberian = {
 		graphical_culture = southernslavicgfx
+		second_graphical_culture = byzantinegfx
 		
 		color = { 0.6 0.4 0.4 }
 
@@ -1335,6 +1339,7 @@ byzantine = {
                 }
 	georgian = {
 		graphical_culture = georgiangfx
+		second_graphical_culture = byzantinegfx
 		
 		color = { 0.6 0.3 0.8 }
 
@@ -1441,6 +1446,7 @@ celtic = {
 	}
         cumbric = {
 	        graphical_culture = bretongfx
+			second_graphical_culture = celtigfx
 	
 	        color = { 0.5 0.7 0.2 }
 
@@ -1511,6 +1517,7 @@ celtic = {
 	}
         cornish = {
 		graphical_culture = bretongfx
+		second_graphical_culture = celtigfx
 		
 		color = { 0.3 0.8 0.6 }
 
@@ -1552,6 +1559,7 @@ celtic = {
 	}
         welsh = {
 		graphical_culture = bretongfx
+		second_graphical_culture = celtigfx
 		
 		color = { 0.3 0.8 0.6 }
 
@@ -1596,6 +1604,7 @@ celtic = {
 	}
 	breton = {
 		graphical_culture = bretongfx
+		second_graphical_culture = celtigfx
 		
 		color = { 0.3 0.5 0.4 }
 		
@@ -1641,6 +1650,7 @@ celtic = {
         }
 	norsegaelic = {
 	        graphical_culture = norsegaelgfx
+			second_graphical_culture = celtigfx
 		
 		color = { 0.2 0.55 0.75 }
 
@@ -1904,6 +1914,7 @@ finno_ugric = {
 	}
 	khanty = {
 		graphical_culture = siberiangfx
+		second_graphical_culture = ugricgfx
 		
 		color = { 0.4 0.65 0.20 }
 
@@ -1927,6 +1938,7 @@ finno_ugric = {
 	}
 	samoyed = { # AKA Bjarmian
 		graphical_culture = siberiangfx
+		second_graphical_culture = ugricgfx
 		color = { 0.3 0.75 0.75 }
 
 		male_names = {
@@ -1998,6 +2010,7 @@ baltic = {
 
 	lettigallish = {
 		graphical_culture = balticgfx
+		second_graphical_culture = ugricgfx
 		
 		color = { 0.5 0.5 0.1 }
 
@@ -2017,6 +2030,7 @@ baltic = {
 	}        
 	lithuanian = {
 		graphical_culture = balticgfx
+		second_graphical_culture = ugricgfx
 		
 		color = { 0.56 0.55 0.2 }
 
@@ -2045,6 +2059,7 @@ baltic = {
 	}
 	prussian = {
 		graphical_culture = balticgfx
+		second_graphical_culture = ugricgfx
 		
 		color = { 0.56 0.55 0.4 }
 
@@ -2118,6 +2133,7 @@ altaic = {
 	}
 	cuman = {
 		graphical_culture = turkishgfx
+		second_graphical_culture = turkishgfx
 		secondary_event_pictures = bedouin_arabic
 		
 		color = { 0.75 0.60 0.20 }
@@ -2138,6 +2154,7 @@ altaic = {
 	}
 	pecheneg = { # Oghuz Turkish
 		graphical_culture = steppegfx
+		second_graphical_culture = turkishgfx
 		secondary_event_pictures = bedouin_arabic
 		
 		color = { 0.85 0.79 0.25 }
@@ -2159,6 +2176,7 @@ altaic = {
 	}
         khazar = { # Oghur Turkish
 		graphical_culture = steppegfx
+		second_graphical_culture = turkishgfx
 		secondary_event_pictures = bedouin_arabic
 		
 		color = { 0.7 0.45 0.1 }
@@ -2203,7 +2221,7 @@ altaic = {
 	}	
 	avar = { # Oghur Turkish
 		graphical_culture = steppegfx
-		second_graphical_culture = easterngfx
+		second_graphical_culture = turkishgfx #easterngfx
 		secondary_event_pictures = bedouin_arabic
 
 		color = { 0.7 0.7 0.3 }
@@ -2229,6 +2247,7 @@ altaic = {
 	}
 	karluk = {
 		graphical_culture = centralasiangfx
+		second_graphical_culture = turkishgfx
 		secondary_event_pictures = bedouin_arabic
 		
 		color = { 0.65 0.50 0.15 }
@@ -2250,6 +2269,7 @@ altaic = {
 	
 	kirghiz = {
 		graphical_culture = centralasiangfx
+		second_graphical_culture = turkishgfx
 		secondary_event_pictures = bedouin_arabic
 		
 		color = { 0.85 0.72 0.30 }
@@ -3165,7 +3185,7 @@ east_african = {
   	modifier = default_culture_modifier
   }
   beja = {
-  	graphical_culture = africangfx
+  	graphical_culture = berbergfx
 		secondary_event_pictures = bedouin_arabic
   	color = { 0.75 0.9 0.85 }
   	male_names = {
@@ -3182,7 +3202,7 @@ east_african = {
   	modifier = default_culture_modifier
   }
   zaghawa = {
-      graphical_culture = berbergfx
+      graphical_culture = africangfx
       secondary_event_pictures = bedouin_arabic
       color = { 0.9 0.35 0.85 }
       male_names = {
@@ -3398,7 +3418,7 @@ songhai = {
 		modifier = west_african_culture_modifier
   }
   kanuri = {
-      graphical_culture = berbergfx
+      graphical_culture = africangfx
       color = { 0.8 0.45 0.75 }
       male_names = {
           Abbas Abdallah Abdul Abdulraham Abubakar Adam_Adam Ahmed Airimi Alhaji Ali Alooma Amin Amr Arku Arsu Baba Baram Bikorom Biri Bukar Bulu Buyuma Dabbalemi Dala Daoud_David Dugu Dunama Fune Gaji Gajideni Galrima Gana Garbai Gazali Gazi Ghana Hume Hummay Ibrahim_Abraham Idris Kaday Kanemi Kashim Katakarmabe Katur Kiyari Kura Kuri Kuwaana Madu Mahmoud Mamane Modu Mohammed_Mohammed Mufioma Murama Musa Mustafa Nikale Osman Said Salmama Sanda Sani Sef Selma Shettima Shu Suleyman_Solomon Tandja Umar Waziri Yahya_John Yaqub_Jacob Yusuf_Joseph Zannah
@@ -3411,7 +3431,7 @@ songhai = {
       modifier = west_african_culture_modifier
   }
   hausa = {
-      graphical_culture = berbergfx
+      graphical_culture = africangfx
       color = { 0.9 0.55 0.8 }
       male_names = {
           Abasama Abbas Abdul Abdulkareem Abdulraham Abu Abubakar Adam_Adam Adamu Ado Ahmed Ahmedu Ali Aliyu Aminu Amir Ashakuka Atuma Bagunda Bako Balarabe Barau Barbushe Bashar Bashir Bawa Bawo Bayajidda Bayero Bello Bilal Biram Burema Burja Cikkoku Dadi Dakauta Dallatu Danasabe Danjuma Danladi Danlami Daoud_David Daren Dauda Daura Faisal Faizu Faruk Faruq Fuad Gaddo Gambo Gani Gijimasu Gobir Gowon Gugwa Habib Hadi Hafiz Hammada Hamzah Hassan Hussain Hussein Ibrahim Ibrahim_Abraham Idris Imam Isa Ishaku Ishaq_Isaac Ismaila Jalil Jamal Jatau Jibril Kabe Kado Kamil Kanajeji Kandala Kano Karbagari Kareem Katsina Khalifah Kisoki Korau Kukuna Kumbari Mahdi Mahmoud Mahmud Malam Mansur Mohammed_Mohammed Muhsin Musa Mustafa Nabil Nafata Naguji Nasir Nawata Nazaki Nohir Nomau Rahid Rano Rashidi Rumfa Said Salim Sambo Shahada Sharef Shashere Shekarau Sidi Soyaki Suleyman_Solomon Tahir Tanimu Tanko Tsamiya Tsaraki Uban Umar Umaru Usman Warisi Yahya_John Yaji Yakubu Yakufu Yamusa Yaqub_Jacob Yero Yohance Yohanna Yunfa Yunusa Yusa Yusuf Yusuf_Joseph Zaki Zaria
@@ -3426,6 +3446,7 @@ songhai = {
 }
 
 north_african = {
+	graphical_culture = muslimgfx
 
 	berber = {
 		graphical_culture = maghrebgfx
@@ -3699,7 +3720,7 @@ israelite = {
 		modifier = default_culture_modifier
 	}
   falashim = { #Beta-Israel, originally compiled by Frostschaden, many more names added by cybrxkhan, some added and changed by elvain
-        graphical_culture = berbergfx
+        graphical_culture = ethiopiangfx
 
         color = { 0.7 0.25 0.65 }
 
