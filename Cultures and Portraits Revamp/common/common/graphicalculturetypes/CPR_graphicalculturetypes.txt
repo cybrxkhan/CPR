@@ -77,3 +77,9 @@ sindhigfx = {
 normangfx = {
 	skin_tone = 0
 }
+northindiangfx = {
+	skin_tone = 2
+}
+assamesegfx = {
+	skin_tone = 2
+}

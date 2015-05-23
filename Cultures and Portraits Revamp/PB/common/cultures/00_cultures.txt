@@ -2866,7 +2866,7 @@ indo_aryan_group = {
 	second_graphical_culture = muslimgfx # Fallback type
 	
 	bengali = { # Indo-Aryan
-		graphical_culture = indiangfx
+		graphical_culture = assamesegfx
 		second_graphical_culture = muslimgfx # Fallback type
 		secondary_event_pictures = bedouin_arabic
 		
@@ -2951,7 +2951,7 @@ indo_aryan_group = {
 	}
 	
 	assamese = { # Indo-Aryan
-		graphical_culture = indiangfx
+		graphical_culture = assamesegfx
 		second_graphical_culture = muslimgfx # Fallback type
 		secondary_event_pictures = bedouin_arabic
 		
@@ -2977,7 +2977,7 @@ indo_aryan_group = {
 	}
 
 	hindustani = { # Indo-Aryan
-		graphical_culture = indiangfx
+		graphical_culture = northindiangfx
 		second_graphical_culture = muslimgfx # Fallback type
 		secondary_event_pictures = bedouin_arabic
 		
@@ -3107,7 +3107,7 @@ indo_aryan_group = {
 	}
 	
 	rajput = { # Indo-Aryan
-		graphical_culture = indiangfx
+		graphical_culture = northindiangfx
 		second_graphical_culture = muslimgfx # Fallback type
 		secondary_event_pictures = bedouin_arabic
 		
