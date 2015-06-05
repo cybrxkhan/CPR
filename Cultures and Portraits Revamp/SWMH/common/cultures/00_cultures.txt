@@ -2789,7 +2789,7 @@ south_slavic = {
 		modifier = karantanci_culture_modifier
 		}
 	croatian = {
-		graphical_culture = southernslavicgfx
+		graphical_culture = lombardgfx
 		
 		color = { 0.4 0.2 0.2 }
 
