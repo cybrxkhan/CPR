@@ -83,3 +83,15 @@ northindiangfx = {
 assamesegfx = {
 	skin_tone = 2
 }
+cumangfx = {
+	skin_tone = 1
+}
+lombardgfx = {
+	skin_tone = 0
+}
+siciliangfx = {
+	skin_tone = 1
+}
+dutchgfx = {
+	skin_tone = 0
+}

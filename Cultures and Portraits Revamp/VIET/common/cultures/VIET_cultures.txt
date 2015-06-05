@@ -98,7 +98,7 @@ altaic = {
 	}
 
 	cuman = {
-		graphical_culture = turkishgfx
+		graphical_culture = cumangfx
 		second_graphical_culture = muslimgfx
 		
 		color = { 0.75 0.60 0.20 }
@@ -1548,7 +1548,7 @@ central_germanic = {
 		modifier = default_culture_modifier
 	}	
 	dutch = { # Dutch
-		graphical_culture = germangfx
+		graphical_culture = dutchgfx
 		graphical_unit_culture = western
 		
 		color = { 0.8 0.4 0.2 }
@@ -1602,7 +1602,7 @@ central_germanic = {
 		modifier = default_culture_modifier
 	}
 	frisian = {
-		graphical_culture = saxongfx
+		graphical_culture = dutchgfx
 		
 		color = { 0.8 0.3 0.2 }
 		
@@ -3143,7 +3143,7 @@ indo_aryan_group = {
 	second_graphical_culture = muslimgfx # Fallback type
 	
 	bengali = { # Indo-Aryan
-		graphical_culture = indiangfx
+		graphical_culture = assamesegfx
 		second_graphical_culture = muslimgfx # Fallback type
 		secondary_event_pictures = bedouin_arabic
 		
@@ -3228,7 +3228,7 @@ indo_aryan_group = {
 	}
 	
 	assamese = { # Indo-Aryan
-		graphical_culture = indiangfx
+		graphical_culture = assamesegfx
 		second_graphical_culture = muslimgfx # Fallback type
 		secondary_event_pictures = bedouin_arabic
 		
@@ -3254,7 +3254,7 @@ indo_aryan_group = {
 	}
 
 	hindustani = { # Indo-Aryan
-		graphical_culture = indiangfx
+		graphical_culture = northindiangfx
 		second_graphical_culture = muslimgfx # Fallback type
 		secondary_event_pictures = bedouin_arabic
 		
@@ -3358,7 +3358,7 @@ indo_aryan_group = {
 	}
 	
 	panjabi = { # Indo-Aryan
-		graphical_culture = indiangfx
+		graphical_culture = sindhigfx
 		second_graphical_culture = muslimgfx # Fallback type
 		secondary_event_pictures = bedouin_arabic
 		
@@ -3384,7 +3384,7 @@ indo_aryan_group = {
 	}
 	
 	rajput = { # Indo-Aryan
-		graphical_culture = indiangfx
+		graphical_culture = northindiangfx
 		second_graphical_culture = muslimgfx # Fallback type
 		secondary_event_pictures = bedouin_arabic
 		
@@ -3455,7 +3455,7 @@ indo_aryan_group = {
 	}
 
 	sindhi = { # Indo-Aryan
-		graphical_culture = indiangfx
+		graphical_culture = sindhigfx
 		second_graphical_culture = muslimgfx # Fallback type
 		secondary_event_pictures = bedouin_arabic
 		
@@ -4972,7 +4972,7 @@ latin = {
 	}
 	
 	lombard = {
-		graphical_culture = germangfx
+		graphical_culture = lombardgfx
 		second_graphical_culture = occitangfx # Fallback type
 		
 		color = { 0.7 0.7 0.1 }

@@ -1328,7 +1328,7 @@
 5 = {
 	# Imperial crown/Chaliph turban
 	0 = {
-		factor = 100
+		factor = 1
 		modifier = {
 			factor = 0
 			NOT = { real_tier = emperor }

@@ -177,7 +177,7 @@ north_germanic = {
 		modifier = norwegian_culture_modifier
 	}
         frisian = {
-		graphical_culture = saxongfx
+		graphical_culture = dutchgfx
 		graphical_unit_culture = western
 		
 		color = { 0.8 0.3 0.2 }
@@ -290,7 +290,7 @@ central_germanic = {
 		modifier = german_culture_modifier
 	}
     dutch = {
-		graphical_culture = germangfx
+		graphical_culture = dutchgfx
 		graphical_unit_culture = western
 		
 		color = { 0.96 0.39 0.08 }
@@ -335,7 +335,7 @@ central_germanic = {
 	}
 	
 	lombard = {
-		graphical_culture = occitangfx
+		graphical_culture = lombardgfx
 		
 		color = { 0.6 0.6 0.8 }
 
@@ -2132,7 +2132,7 @@ altaic = {
 		modifier = mongol_culture_modifier
 	}
 	cuman = {
-		graphical_culture = turkishgfx
+		graphical_culture = cumangfx
 		second_graphical_culture = turkishgfx
 		secondary_event_pictures = bedouin_arabic
 		
@@ -3783,7 +3783,7 @@ italian_group = {
 		mother_name_chance = 5
 		}
         sicilian = {
-		graphical_culture = italiangfx
+		graphical_culture = siciliangfx
 		
 		color = { 0.8 0.7 0.15 }
 
@@ -3937,7 +3937,7 @@ italian_group = {
 		mother_name_chance = 5
         }
 	southern_italian = {
-		graphical_culture = italiangfx
+		graphical_culture = siciliangfx
 		second_graphical_culture = occitangfx # Fallback type
 		
 		color = { 0.8 0.1 0.1 }
@@ -4137,7 +4137,7 @@ italian_group = {
 		mother_name_chance = 5
         }
         langobardisch = {
-		graphical_culture = occitangfx
+		graphical_culture = lombardgfx
 		
 		color = { 0.7 0.3 0.1 }
 

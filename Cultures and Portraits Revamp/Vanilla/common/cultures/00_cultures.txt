@@ -208,7 +208,7 @@ central_germanic = {
 		modifier = default_culture_modifier
 	}
 	lombard = {
-		graphical_culture = occitangfx
+		graphical_culture = lombardgfx
 		
 		color = { 0.6 0.6 0.8 }
 
@@ -481,7 +481,7 @@ west_germanic = {
 		modifier = default_culture_modifier
 	}
 	frisian = {
-		graphical_culture = saxongfx
+		graphical_culture = dutchgfx
 		
 		color = { 0.7 0.3 0.0 }
 		
@@ -529,7 +529,7 @@ west_germanic = {
 		modifier = default_culture_modifier
 	}
 	dutch = {
-		graphical_culture = germangfx
+		graphical_culture = dutchgfx
 		graphical_unit_culture = western
 		
 		color = { 0.96 0.39 0.08 }
@@ -1646,7 +1646,7 @@ altaic = {
 		modifier = default_culture_modifier
 	}
 	cuman = { # Kipchak Turkish
-		graphical_culture = turkishgfx
+		graphical_culture = cumangfx
 		secondary_event_pictures = bedouin_arabic
 		
 		color = { 0.75 0.60 0.20 }

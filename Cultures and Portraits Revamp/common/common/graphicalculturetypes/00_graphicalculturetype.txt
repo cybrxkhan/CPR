@@ -94,6 +94,7 @@ turkishgfx = {
 }
 mongolgfx = {
 	skin_tone = 1
+	christian_portraits = yes
 }
 africangfx = {
 	skin_tone = 3
