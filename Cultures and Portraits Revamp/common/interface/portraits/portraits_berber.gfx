@@ -50,7 +50,7 @@ spriteTypes = {
 		   	"GFX_african_male_hair:p1:h:y"
 			"GFX_empty:p3:c4"
 			"GFX_muslim_male_headgear:p5:c5"
-			"GFX_character_imprisoned:p6"
+			"GFX_character_imprisoned:p6" 			"GFX_player_overlay:p11"
 		}
 
 		hair_color_index = 8
@@ -98,7 +98,7 @@ spriteTypes = {
 			"GFX_african_male_hair_midage:p1:h:y"
 			"GFX_empty:p3:c4"
 			"GFX_muslim_male_headgear:p5:c5"
-			"GFX_character_imprisoned:p6"
+			"GFX_character_imprisoned:p6" 			"GFX_player_overlay:p11"
 		}
 
 		hair_color_index = 8
@@ -146,7 +146,7 @@ spriteTypes = {
 			"GFX_african_male_hair_oldage:p1:h:y"
 			"GFX_empty:p3:c4"
 			"GFX_muslim_male_headgear:p5:c5"
-			"GFX_character_imprisoned:p6"
+			"GFX_character_imprisoned:p6" 			"GFX_player_overlay:p11"
 		}
 
 		hair_color_index = 8
@@ -197,7 +197,7 @@ spriteTypes = {
 			"GFX_african_female_hair:p1:y"
 			"GFX_empty:p3:c4"
 			"GFX_muslim_female_headgear:p5:c5" 
-			"GFX_character_imprisoned:p6"
+			"GFX_character_imprisoned:p6" 			"GFX_player_overlay:p11"
 		}
 
 		hair_color_index = 8
@@ -240,7 +240,7 @@ spriteTypes = {
 			"GFX_african_female_hair_midage:p1:y"
 			"GFX_empty:p3:c4"
 			"GFX_muslim_female_headgear:p5:c5" 
-			"GFX_character_imprisoned:p6"
+			"GFX_character_imprisoned:p6" 			"GFX_player_overlay:p11"
 		}
 
 		hair_color_index = 8
@@ -283,7 +283,7 @@ spriteTypes = {
 			"GFX_african_female_hair_oldage:p1:y"
 			"GFX_empty:p3:c4"
 			"GFX_muslim_female_headgear:p5:c5" 
-			"GFX_character_imprisoned:p6"
+			"GFX_character_imprisoned:p6" 			"GFX_player_overlay:p11"
 		}
 
 		hair_color_index = 8

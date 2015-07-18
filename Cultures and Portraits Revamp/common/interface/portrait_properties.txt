@@ -8,6 +8,10 @@
 			factor = 0
 			NOT = { religion_group = christian }
 		}
+		modifier = {
+			factor = 0
+			is_nomadic = yes
+		}
 	}
 
 	1 = { #throne room
@@ -16,6 +20,11 @@
 			factor = 0
 			NOT = { real_tier = king }
 			NOT = { real_tier = emperor }
+		}
+		modifier = {
+			factor = 0
+			is_nomadic = yes
+			is_tribal = yes
 		}
 	}
 
@@ -37,6 +46,14 @@
 				culture_group = west_african
 				culture_group = east_african
 			}
+		}
+		modifier = {
+			factor = 0.01
+			is_nomadic = yes
+		}
+		modifier = {
+			factor = 10
+			is_tribal = yes
 		}
 	}
 
@@ -172,6 +189,10 @@
 			}
 			NOT = { culture = turkish }
 		}
+		modifier = {
+			factor = 10
+			is_nomadic = yes
+		}
 	}
 	12 = { # Ocean w ships - changed to tundra/snow
 		factor = 1
@@ -201,6 +222,7 @@
 			factor = 0
 			NOT = { religion_group = muslim }
 			NOT = { religion_group = zoroastrian_group }
+			NOT = { religion = zun_pagan }
 			NOT = { religion_group = indian_group }
 			NOT = { culture_group = iberian }
 			NOT = { culture_group = arabic }
@@ -232,8 +254,9 @@
 		modifier = {
 			factor = 0
 			NOT = { religion_group = muslim }
-			NOT = { religion_group = zoroastrian_group }
 			NOT = { religion_group = indian_group }
+			NOT = { religion_group = zoroastrian_group }
+			NOT = { religion = zun_pagan }
 			NOT = { culture_group = iberian }
 			NOT = { culture_group = arabic }
 			NOT = { culture_group = north_african }
@@ -1317,10 +1340,6 @@
 				graphical_culture = byzantinegfx
 			}
 		}
-		modifier = {
-			factor = 0
-			culture = pecheneg
-		}
 	}
 }
 
@@ -1337,7 +1356,6 @@
 		modifier = {
 			factor = 0
 			is_feudal = no
-			is_tribal = no
 		}
 		modifier = {
 			factor = 0
@@ -1359,7 +1377,6 @@
 		modifier = {
 			factor = 0
 			is_feudal = no
-			is_tribal = no
 		}
 		modifier = {
 			factor = 0
@@ -1381,7 +1398,6 @@
 		modifier = {
 			factor = 0
 			is_feudal = no
-			is_tribal = no
 		}
 		modifier = {
 			factor = 0
@@ -1403,7 +1419,6 @@
 		modifier = {
 			factor = 0
 			is_feudal = no
-			is_tribal = no
 		}
 		modifier = {
 			factor = 0
@@ -1419,10 +1434,7 @@
 		factor = 1
 		modifier = {
 			factor = 0
-			OR = {
-				is_feudal = yes
-				is_tribal = yes
-			}
+			is_feudal = yes
 			NOT = { real_tier = duke }
 			NOT = { spouse = { real_tier = duke } }
 			NOT = { has_minor_title = title_prince }
@@ -1440,10 +1452,7 @@
 		}
 		modifier = {
 			factor = 0
-			OR = {
-				is_feudal = yes
-				is_tribal = yes
-			}
+			is_feudal = yes
 			real_tier = king
 		}
 		modifier = {
@@ -1826,6 +1835,31 @@
 			factor = 0
 			NOT = {
 				trait = blinded
+			}
+		}
+	}
+}
+
+# p11 player
+11 = {
+	0 = { # blank
+		factor = 100
+		modifier = {
+			factor = 0
+			AND = {
+				ai = no
+				multiplayer = yes
+			}
+		}
+	}
+
+	1 = { # player
+		factor = 100
+		modifier = {
+			factor = 0
+			OR = {
+				ai = yes
+				multiplayer = no
 			}
 		}
 	}

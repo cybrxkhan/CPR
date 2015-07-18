@@ -48,6 +48,9 @@ balticholygfx = {
 finnishholygfx = {
 	skin_tone = 0
 }
+italiangfx = {
+	skin_tone = 0
+}
 
 # Eastern
 
@@ -92,6 +95,9 @@ turkishgfx = {
 	skin_tone = 1
 	christian_portraits = yes
 }
+cumangfx = {
+	skin_tone = 2
+}
 mongolgfx = {
 	skin_tone = 1
 	christian_portraits = yes
@@ -112,7 +118,7 @@ hashshashingfx = {
 }
 
 immortalsgfx = {
-	skin_tone = 1
+	skin_tone = 2
 }
 
 #Other
@@ -123,7 +129,7 @@ westafricangfx = {
 }
 
 persiangfx = {
-	skin_tone = 1
+	skin_tone = 2
 }
 
 westafricanholygfx = {
@@ -156,3 +162,7 @@ jewishholygfx = {
 indiangfx = {
 	skin_tone = 2
 }
+
+# Hard coded government graphical cultures
+tribalgfx = {}
+nomadgfx = {}

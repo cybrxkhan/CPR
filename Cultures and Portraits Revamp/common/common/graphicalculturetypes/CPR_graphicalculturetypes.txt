@@ -51,7 +51,7 @@ sogdiangfx = {
 	skin_tone = 1
 }
 khotanesegfx = {
-	skin_tone = 1
+	skin_tone = 2
 }
 chinesegfx = {
 	skin_tone = 1
@@ -83,9 +83,6 @@ northindiangfx = {
 assamesegfx = {
 	skin_tone = 2
 }
-cumangfx = {
-	skin_tone = 1
-}
 lombardgfx = {
 	skin_tone = 0
 }
@@ -94,4 +91,7 @@ siciliangfx = {
 }
 dutchgfx = {
 	skin_tone = 0
+}
+khitangfx = {
+	skin_tone = 1
 }

@@ -25,10 +25,10 @@ spriteTypes = {
 		effectFile = "gfx/FX/portrait.lua"
 		layer = { # GFX_TYPE:[d|p]INDEX:COLOR_LINK:DONT_REFRESH_IF_VALID:CULTURE_INDEX
 			"GFX_character_background:p0"				
-			"GFX_turkish_male_clothes_behind:p3:c0"
+			"GFX_cuman_male_clothes_behind:p3:c0"
 			"GFX_turkish_male_headgear_behind:p5:c1"
 			"GFX_turkish_male_hair_behind:p1:o-3x-1:h:y"
-			"GFX_turkish_male_beard_behind:p4:o-4x2:h:y"
+			"GFX_centralasian_male_beard_behind:p4:o-3x5:h:y"
 			"GFX_persian_male_base:p2"					
 			"GFX_persian_male_neck:d0"
 			"GFX_persian_male_chin:d1"
@@ -37,15 +37,19 @@ spriteTypes = {
 			"GFX_persian_male_eyes:d6"
 			"GFX_persian_male_nose:d3"
 			"GFX_persian_male_eyes2:d6:e"
+			"GFX_character_scars:p7:y"
+			"GFX_character_reddots:p8"
+			"GFX_character_boils:p9"
 			"GFX_character_blinded_eyes:p10"
-			"GFX_turkish_male_clothes:p3:c2"
+			"GFX_cuman_male_clothes:p3:c2"
 			"GFX_turkish_male_headgear_mid:p5:c3"				
 			"GFX_persian_male_ear:d7"
-			"GFX_turkish_male_beard:p4:o-4x2:h:y"
+			"GFX_centralasian_male_beard:p4:o-3x5:h:y"
 		   	"GFX_turkish_male_hair:p1:o-3x-1:h:y"
-			"GFX_turkish_male_clothes_infront:p3:c4"
+			"GFX_cuman_male_clothes_infront:p3:c4"
 			"GFX_turkish_male_headgear:p5:c5"				
 			"GFX_character_imprisoned:p6"
+			"GFX_player_overlay:p11"
 		}
 
 		hair_color_index = 8
@@ -74,10 +78,10 @@ spriteTypes = {
 		effectFile = "gfx/FX/portrait.lua"
 		layer = { # GFX_TYPE:[d|p]INDEX:COLOR_LINK:DONT_REFRESH_IF_VALID:CULTURE_INDEX
 			"GFX_character_background:p0"
-			"GFX_turkish_male_clothes_behind:p3:c0"
+			"GFX_cuman_male_clothes_behind:p3:c0"
 			"GFX_turkish_male_headgear_behind:p5:c1"
 			"GFX_turkish_male_hair_behind_midage:p1:o-3x-1:h:y"
-			"GFX_turkish_male_beard_behind_midage:p4:o-4x2:h:y"
+			"GFX_centralasian_male_beard_behind_midage:p4:o-3x5:h:y"
 			"GFX_persian_male_base_midage:p2"
 			"GFX_persian_male_neck_midage:d0"
 			"GFX_persian_male_chin_midage:d1"
@@ -86,15 +90,19 @@ spriteTypes = {
 			"GFX_persian_male_eyes_midage:d6"
 			"GFX_persian_male_nose_midage:d3"
 			"GFX_persian_male_eyes2:d6:e"
+			"GFX_character_scars:p7:y"
+			"GFX_character_reddots:p8"
+			"GFX_character_boils:p9"
 			"GFX_character_blinded_eyes:p10"
-			"GFX_turkish_male_clothes:p3:c2"
+			"GFX_cuman_male_clothes:p3:c2"
 			"GFX_turkish_male_headgear_mid:p5:c3"	
 			"GFX_persian_male_ear_midage:d7"
-			"GFX_turkish_male_beard_midage:p4:o-4x2:h:y"
+			"GFX_centralasian_male_beard_midage:p4:o-3x5:h:y"
 			"GFX_turkish_male_hair_midage:p1:o-3x-1:h:y"
-			"GFX_turkish_male_clothes_infront:p3:c4"
+			"GFX_cuman_male_clothes_infront:p3:c4"
 			"GFX_turkish_male_headgear:p5:c5"	
 			"GFX_character_imprisoned:p6"
+			"GFX_player_overlay:p11"
 		}
 
 		hair_color_index = 8
@@ -123,10 +131,10 @@ spriteTypes = {
 		effectFile = "gfx/FX/portrait.lua"
 		layer = { # GFX_TYPE:[d|p]INDEX:COLOR_LINK:DONT_REFRESH_IF_VALID:CULTURE_INDEX
 			"GFX_character_background:p0"
-			"GFX_turkish_male_clothes_behind:p3:c0"
+			"GFX_cuman_male_clothes_behind:p3:c0"
 			"GFX_turkish_male_headgear_behind:p5:c1"
 			"GFX_turkish_male_hair_behind_oldage:p1:o-3x-1:h:y"
-			"GFX_turkish_male_beard_behind_oldage:p4:o-4x2:h:y"
+			"GFX_centralasian_male_beard_behind_oldage:p4:o-3x5:h:y"
 			"GFX_persian_male_base_oldage:p2"
 			"GFX_persian_male_neck_oldage:d0"
 			"GFX_persian_male_chin_oldage:d1"
@@ -135,15 +143,19 @@ spriteTypes = {
 			"GFX_persian_male_eyes_oldage:d6"
 			"GFX_persian_male_nose_oldage:d3"
 			"GFX_persian_male_eyes2:d6:e"
+			"GFX_character_scars:p7:y"
+			"GFX_character_reddots:p8"
+			"GFX_character_boils:p9"
 			"GFX_character_blinded_eyes:p10"
-			"GFX_turkish_male_clothes:p3:c2"
+			"GFX_cuman_male_clothes:p3:c2"
 			"GFX_turkish_male_headgear_mid:p5:c3"	
 			"GFX_persian_male_ear_oldage:d7"
-			"GFX_turkish_male_beard_oldage:p4:o-4x2:h:y"
+			"GFX_centralasian_male_beard_oldage:p4:o-3x5:h:y"
 			"GFX_turkish_male_hair_oldage:p1:o-3x-1:h:y"
-			"GFX_turkish_male_clothes_infront:p3:c4"
+			"GFX_cuman_male_clothes_infront:p3:c4"
 			"GFX_turkish_male_headgear:p5:c5"	
 			"GFX_character_imprisoned:p6"
+			"GFX_player_overlay:p11"
 		}
 
 		hair_color_index = 8
@@ -175,7 +187,7 @@ spriteTypes = {
 		effectFile = "gfx/FX/portrait.lua"
 		layer = { # GFX_TYPE:[d|p]INDEX:COLOR_LINK:DONT_REFRESH_IF_VALID:CULTURE_INDEX
 			"GFX_character_background:p0"
-			"GFX_turkish_female_clothes_behind:p3:c0"
+			"GFX_cuman_female_clothes_behind:p3:c0"
 			"GFX_turkish_female_headgear_behind:p5:c1"
 			"GFX_turkish_female_hair_behind:p1:o-2x-1:h:y"
 			"GFX_persian_female_base:p2"
@@ -186,13 +198,18 @@ spriteTypes = {
 			"GFX_persian_female_eyes:d6"
 			"GFX_persian_female_nose:d3"
 			"GFX_persian_female_eyes2:d6:e"
-			"GFX_persian_female_ear:d7"			
-			"GFX_turkish_female_clothes:p3:c2"
+			"GFX_character_scars:p7:y"
+			"GFX_character_reddots:p8"
+			"GFX_character_boils:p9"
+			"GFX_character_blinded_eyes:p10"
+			"GFX_persian_female_ear:d7"
+			"GFX_cuman_female_clothes:p3:c2"
 			"GFX_turkish_female_headgear_mid:p5:c3"
 			"GFX_turkish_female_hair:p1:o-2x-1:h:y"
 			"GFX_empty:p3:c4"
 			"GFX_turkish_female_headgear:p5:c5"
 			"GFX_character_imprisoned:p6"
+			"GFX_player_overlay:p11"
 		}
 
 		hair_color_index = 8
@@ -212,7 +229,7 @@ spriteTypes = {
 			{ 36 32 24 } #Dark Brown
 		}
 		
-		headgear_that_hides_hair = { 8 10 }
+		headgear_that_hides_hair = { 10 }
 	}
 
 	# sogdian female midage
@@ -221,7 +238,7 @@ spriteTypes = {
 		effectFile = "gfx/FX/portrait.lua"
 		layer = { # GFX_TYPE:[d|p]INDEX:COLOR_LINK:DONT_REFRESH_IF_VALID:CULTURE_INDEX
 			"GFX_character_background:p0"
-			"GFX_turkish_female_clothes_behind:p3:c0"
+			"GFX_cuman_female_clothes_behind:p3:c0"
 			"GFX_turkish_female_headgear_behind:p5:c1"
 			"GFX_turkish_female_hair_behind_midage:p1:o-2x-1:h:y"
 			"GFX_persian_female_base_midage:p2"
@@ -232,13 +249,18 @@ spriteTypes = {
 			"GFX_persian_female_eyes_midage:d6"
 			"GFX_persian_female_nose_midage:d3"
 			"GFX_persian_female_eyes2:d6:e"
+			"GFX_character_scars:p7:y"
+			"GFX_character_reddots:p8"
+			"GFX_character_boils:p9"
+			"GFX_character_blinded_eyes:p10"
 			"GFX_persian_female_ear_midage:d7"		
-			"GFX_turkish_female_clothes:p3:c2"
+			"GFX_cuman_female_clothes:p3:c2"
 			"GFX_turkish_female_headgear_mid:p5:c3"
 			"GFX_turkish_female_hair_midage:p1:o-2x-1:h:y"				
 			"GFX_empty:p3:c4"
 			"GFX_turkish_female_headgear:p5:c5"
 			"GFX_character_imprisoned:p6"
+			"GFX_player_overlay:p11"
 		}
 
 		hair_color_index = 8
@@ -258,7 +280,7 @@ spriteTypes = {
 			{ 36 32 24 } #Dark Brown
 		}
 		
-		headgear_that_hides_hair = { 8 10 }
+		headgear_that_hides_hair = { 10 }
 	}
 
 	# sogdian female oldage
@@ -267,7 +289,7 @@ spriteTypes = {
 		effectFile = "gfx/FX/portrait.lua"
 		layer = { # GFX_TYPE:[d|p]INDEX:COLOR_LINK:DONT_REFRESH_IF_VALID:CULTURE_INDEX
 			"GFX_character_background:p0"
-			"GFX_turkish_female_clothes_behind:p3:c0"
+			"GFX_cuman_female_clothes_behind:p3:c0"
 			"GFX_turkish_female_headgear_behind:p5:c1"
 			"GFX_turkish_female_hair_behind_oldage:p1:o-2x-1:h:y"
 			"GFX_persian_female_base_oldage:p2"
@@ -278,13 +300,18 @@ spriteTypes = {
 			"GFX_persian_female_eyes_oldage:d6"
 			"GFX_persian_female_nose_oldage:d3"
 			"GFX_persian_female_eyes2:d6:e"
+			"GFX_character_scars:p7:y"
+			"GFX_character_reddots:p8"
+			"GFX_character_boils:p9"
+			"GFX_character_blinded_eyes:p10"
 			"GFX_persian_female_ear_oldage:d7"		
-			"GFX_turkish_female_clothes:p3:c2"
+			"GFX_cuman_female_clothes:p3:c2"
 			"GFX_turkish_female_headgear_mid:p5:c3"
 			"GFX_turkish_female_hair_oldage:p1:o-2x-1:h:y"
 			"GFX_empty:p3:c4"
 			"GFX_turkish_female_headgear:p5:c5"
 			"GFX_character_imprisoned:p6"
+			"GFX_player_overlay:p11"
 		}
 
 		hair_color_index = 8
@@ -304,7 +331,7 @@ spriteTypes = {
 			{ 36 32 24 } #Dark Brown
 		}
 		
-		headgear_that_hides_hair = { 8 10 }
+		headgear_that_hides_hair = { 10 }
 	}
 	
 }
