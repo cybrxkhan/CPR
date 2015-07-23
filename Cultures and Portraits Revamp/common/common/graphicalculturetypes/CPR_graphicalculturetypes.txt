@@ -62,9 +62,6 @@ levantinegfx = {
 basquegfx = {
 	skin_tone = 0
 }
-italiangfx = {
-	skin_tone = 1
-}
 southernslavicgfx = {
 	skin_tone = 0
 }
@@ -73,9 +70,6 @@ maghrebgfx = {
 }
 sindhigfx = {
 	skin_tone = 1
-}
-normangfx = {
-	skin_tone = 0
 }
 northindiangfx = {
 	skin_tone = 2
